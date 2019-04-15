@@ -19,11 +19,14 @@ class WeatherListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.setupNavigationBar()
     }
     
     // MARK: - Private methods
     
-    
+    private func setupNavigationBar() {
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+    }
 
     // MARK: - Table view data source
 

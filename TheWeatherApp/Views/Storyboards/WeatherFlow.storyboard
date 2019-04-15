@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Weather List View Controller-->
+        <!--TheWeatherApp-->
         <scene sceneID="GTY-Tr-Rre">
             <objects>
                 <tableViewController id="6Lt-nj-Fzv" customClass="WeatherListViewController" customModule="TheWeatherApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,7 +22,7 @@
                             <outlet property="delegate" destination="6Lt-nj-Fzv" id="bde-qW-hU1"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="tSH-gR-O3W"/>
+                    <navigationItem key="navigationItem" title="TheWeatherApp" id="tSH-gR-O3W"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="duf-JC-0tc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
