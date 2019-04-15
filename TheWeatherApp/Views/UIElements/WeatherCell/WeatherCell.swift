@@ -17,6 +17,7 @@ class WeatherCell: UITableViewCell {
     @IBOutlet private weak var cityLabel: UILabel!
     @IBOutlet private weak var stateLabel: UILabel!
     @IBOutlet private weak var currentWeatherImageView: UIImageView!
+    @IBOutlet private weak var currentWeatherActivityIndicator: UIActivityIndicatorView!
     
     var city: City? {
         didSet {

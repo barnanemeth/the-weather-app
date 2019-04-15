@@ -45,10 +45,19 @@
                             <constraint firstAttribute="height" constant="35" id="HRR-gT-GsF"/>
                         </constraints>
                     </imageView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="JMc-cW-svL">
+                        <rect key="frame" x="328" y="22" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="4nY-5k-zQC"/>
+                            <constraint firstAttribute="width" constant="20" id="VAs-60-104"/>
+                        </constraints>
+                    </activityIndicatorView>
                 </subviews>
                 <constraints>
                     <constraint firstItem="SVa-0b-up7" firstAttribute="centerY" secondItem="j65-IM-OvO" secondAttribute="centerY" id="6T1-Uc-Hft"/>
+                    <constraint firstItem="JMc-cW-svL" firstAttribute="centerY" secondItem="j65-IM-OvO" secondAttribute="centerY" id="7zD-QP-gV2"/>
                     <constraint firstAttribute="trailing" secondItem="SVa-0b-up7" secondAttribute="trailing" constant="20" id="OAH-1c-v6y"/>
+                    <constraint firstAttribute="trailing" secondItem="JMc-cW-svL" secondAttribute="trailing" constant="28" id="ckB-Jd-nnF"/>
                     <constraint firstItem="kC9-A7-qG0" firstAttribute="leading" secondItem="j65-IM-OvO" secondAttribute="leading" constant="20" id="dGG-Ls-BAp"/>
                     <constraint firstItem="SVa-0b-up7" firstAttribute="leading" secondItem="kC9-A7-qG0" secondAttribute="trailing" constant="8" id="qU6-dg-CGF"/>
                     <constraint firstItem="kC9-A7-qG0" firstAttribute="centerY" secondItem="j65-IM-OvO" secondAttribute="centerY" id="swM-xZ-phF"/>
@@ -56,6 +65,7 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="cityLabel" destination="XMa-e9-GPf" id="3Yp-C6-jOk"/>
+                <outlet property="currentWeatherActivityIndicator" destination="JMc-cW-svL" id="ymO-MV-9jV"/>
                 <outlet property="currentWeatherImageView" destination="SVa-0b-up7" id="5FH-Oc-aci"/>
                 <outlet property="stateLabel" destination="IXT-0M-lFR" id="v44-B5-QJB"/>
             </connections>
