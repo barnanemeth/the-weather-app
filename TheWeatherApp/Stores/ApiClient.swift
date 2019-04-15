@@ -14,7 +14,7 @@ struct ApiClient {
     // MARK: - Properties
     
     private let serviceAddress = Bundle.main.object(forInfoDictionaryKey: "ServiceAddress") as! String
-    private let apiKey = Bundle.main.object(forInfoDictionaryKey: "APIKey") as! String
+    private let apiKey = Bundle.main.object(forInfoDictionaryKey: "OpenweathermapAppID") as! String
     private let language = Locale.preferredLanguages.first!
     private let decoder: JSONDecoder
     
