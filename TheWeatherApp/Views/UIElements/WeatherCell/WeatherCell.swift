@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WeatherCell: UITableViewCell {
+final class WeatherCell: UITableViewCell {
 
     // MARK: - Properties
     

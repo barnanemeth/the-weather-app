@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WeatherListViewController: UITableViewController {
+final class WeatherListViewController: UITableViewController {
 
     // MARK: - Properties
     

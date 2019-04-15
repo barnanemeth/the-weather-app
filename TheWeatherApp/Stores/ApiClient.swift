@@ -9,7 +9,7 @@
 import Alamofire
 import PromiseKit
 
-struct ApiClient {
+final class ApiClient {
     
     // MARK: - Properties
     
