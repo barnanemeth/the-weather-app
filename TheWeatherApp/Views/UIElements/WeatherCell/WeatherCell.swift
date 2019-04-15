@@ -16,6 +16,14 @@ class WeatherCell: UITableViewCell {
     @IBOutlet private weak var stateLabel: UILabel!
     @IBOutlet private weak var currentWeatherImageView: UIImageView!
     
+    var city: City? {
+        didSet {
+            guard let city = self.city else { return }
+            self.cityLabel.text = city.name
+            self.stateLabel.text = city.state
+        }
+    }
+    
     // MARK: - Cell life cycle
     
     override func awakeFromNib() {
