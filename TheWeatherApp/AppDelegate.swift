@@ -19,12 +19,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        self.setupDefaultNavigationBarAppereance()
+        
         return true
     }
     
     // MARK: - Private methods
     
-    
+    private func setupDefaultNavigationBarAppereance() {
+        UINavigationBar.appearance().barTintColor = UIColor.protossPylon
+        UIBarButtonItem.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+    }
 
 }
 
