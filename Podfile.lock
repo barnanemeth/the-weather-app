@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AlamofireNetworkActivityIndicator (2.3.0):
+    - Alamofire (~> 4.7)
+  - Kingfisher (5.2.0)
+  - PromiseKit/Alamofire (6.8.3):
+    - Alamofire (~> 4.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/CorePromise (6.8.3)
+  - SkeletonView (1.4.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireNetworkActivityIndicator (~> 2.2)
+  - Kingfisher (~> 5.1)
+  - PromiseKit/Alamofire
+  - SkeletonView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - Kingfisher
+    - PromiseKit
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireNetworkActivityIndicator: 18346ff6d770d9513d0ac6f2d99706f40f93dbaa
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
+  SkeletonView: c2523c3c8c6510e273e49a3bf364a434744c3914
+
+PODFILE CHECKSUM: ff426132bba5b43e3731d96aa2c841b6f4c9a714
+
+COCOAPODS: 1.5.3
