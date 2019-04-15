@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="64" id="EcQ-KT-T0S">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="64" id="EcQ-KT-T0S" customClass="WeatherCell" customModule="TheWeatherApp" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EcQ-KT-T0S" id="j65-IM-OvO">
@@ -54,6 +54,11 @@
                     <constraint firstItem="kC9-A7-qG0" firstAttribute="centerY" secondItem="j65-IM-OvO" secondAttribute="centerY" id="swM-xZ-phF"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="cityLabel" destination="XMa-e9-GPf" id="3Yp-C6-jOk"/>
+                <outlet property="currentWeatherImageView" destination="SVa-0b-up7" id="5FH-Oc-aci"/>
+                <outlet property="stateLabel" destination="IXT-0M-lFR" id="v44-B5-QJB"/>
+            </connections>
             <point key="canvasLocation" x="131.8840579710145" y="174.77678571428569"/>
         </tableViewCell>
     </objects>
