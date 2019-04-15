@@ -12,6 +12,8 @@ class WeatherCell: UITableViewCell {
 
     // MARK: - Properties
     
+    static let height: CGFloat = 78.0
+    
     @IBOutlet private weak var cityLabel: UILabel!
     @IBOutlet private weak var stateLabel: UILabel!
     @IBOutlet private weak var currentWeatherImageView: UIImageView!

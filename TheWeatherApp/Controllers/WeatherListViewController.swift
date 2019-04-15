@@ -24,6 +24,7 @@ class WeatherListViewController: UITableViewController {
         super.viewDidLoad()
 
         self.setupNavigationBar()
+        self.setupTableView()
         self.loadCities()
     }
     
@@ -31,6 +32,10 @@ class WeatherListViewController: UITableViewController {
     
     private func setupNavigationBar() {
         self.navigationController?.navigationBar.prefersLargeTitles = true
+    }
+    
+    private func setupTableView() {
+        self.tableView.register(UINib(nibName: "WeatherCell", bundle: nil), forCellReuseIdentifier: "WeatherCell")
     }
     
     private func loadCities() {
@@ -54,11 +59,15 @@ class WeatherListViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "WeatherCell", for: indexPath) as? WeatherCell else {
+            fatalError("WeatherCell not found")
+        }
+        cell.city = self.cities[indexPath.row]
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return WeatherCell.height
     }
 
 
