@@ -35,6 +35,7 @@ final class WeatherListViewController: UITableViewController {
     }
     
     private func setupTableView() {
+        self.clearsSelectionOnViewWillAppear = true
         self.tableView.register(UINib(nibName: "WeatherCell", bundle: nil), forCellReuseIdentifier: "WeatherCell")
     }
     
