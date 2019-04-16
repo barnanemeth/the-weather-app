@@ -295,6 +295,7 @@
                         <outlet property="pressureLabel" destination="516-fA-NqH" id="cox-W5-Qjv"/>
                         <outlet property="temperatureLabel" destination="jj8-uo-jHB" id="4av-AO-Ft8"/>
                         <outlet property="weatherDescriptionLabel" destination="dMn-p3-St8" id="Rs3-XZ-tFq"/>
+                        <outlet property="weatherImageView" destination="cJj-bt-h8T" id="FfT-5D-VJh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kgs-oi-PoU" userLabel="First Responder" sceneMemberID="firstResponder"/>

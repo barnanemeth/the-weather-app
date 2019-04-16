@@ -239,6 +239,7 @@
 		705A6045226669E100B32EB5 /* wi-wind-beaufort-9.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F6A226669DF00B32EB5 /* wi-wind-beaufort-9.svg */; };
 		705A6046226669E100B32EB5 /* wi-direction-down-left.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F6B226669DF00B32EB5 /* wi-direction-down-left.svg */; };
 		705A6047226669E100B32EB5 /* wi-moon-waxing-gibbous-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F6C226669E000B32EB5 /* wi-moon-waxing-gibbous-5.svg */; };
+		705A604B2266709D00B32EB5 /* WeatherIcons.json in Resources */ = {isa = PBXBuildFile; fileRef = 705A604A2266709D00B32EB5 /* WeatherIcons.json */; };
 		70BA277922649CE70078218E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA277822649CE70078218E /* AppDelegate.swift */; };
 		70BA278022649CE90078218E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BA277F22649CE90078218E /* Assets.xcassets */; };
 		AFC9D380EC718A43AC0F6C40 /* Pods_TheWeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EFF5D8B6FC1A3473F922D0 /* Pods_TheWeatherApp.framework */; };
@@ -480,6 +481,7 @@
 		705A5F6A226669DF00B32EB5 /* wi-wind-beaufort-9.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-9.svg"; sourceTree = "<group>"; };
 		705A5F6B226669DF00B32EB5 /* wi-direction-down-left.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-direction-down-left.svg"; sourceTree = "<group>"; };
 		705A5F6C226669E000B32EB5 /* wi-moon-waxing-gibbous-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-gibbous-5.svg"; sourceTree = "<group>"; };
+		705A604A2266709D00B32EB5 /* WeatherIcons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WeatherIcons.json; sourceTree = "<group>"; };
 		70BA277522649CE70078218E /* TheWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BA277822649CE70078218E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70BA277F22649CE90078218E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -816,6 +818,7 @@
 			isa = PBXGroup;
 			children = (
 				705A5E91226669AD00B32EB5 /* WeatherIcons */,
+				705A604A2266709D00B32EB5 /* WeatherIcons.json */,
 				705A5E7F2264F70200B32EB5 /* Cities.json */,
 				70BA277F22649CE90078218E /* Assets.xcassets */,
 			);
@@ -1016,6 +1019,7 @@
 				705A5F8B226669E000B32EB5 /* wi-night-clear.svg in Resources */,
 				705A6034226669E100B32EB5 /* wi-storm-warning.svg in Resources */,
 				705A5F78226669E000B32EB5 /* wi-moon-full.svg in Resources */,
+				705A604B2266709D00B32EB5 /* WeatherIcons.json in Resources */,
 				705A5F9C226669E000B32EB5 /* wi-moon-waxing-gibbous-4 .svg in Resources */,
 				705A603A226669E100B32EB5 /* wi-night-alt-storm-showers.svg in Resources */,
 				705A5FB7226669E000B32EB5 /* wi-moon-alt-waxing-crescent-3.svg in Resources */,

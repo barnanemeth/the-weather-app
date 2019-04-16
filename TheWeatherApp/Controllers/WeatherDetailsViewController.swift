@@ -15,6 +15,7 @@ class WeatherDetailsViewController: UIViewController {
 
     // MARK: - Properties
     
+    @IBOutlet private weak var weatherImageView: UIImageView!
     @IBOutlet private weak var cityLabel: UILabel!
     @IBOutlet private weak var weatherDescriptionLabel: UILabel!
     @IBOutlet private weak var temperatureLabel: UILabel!
@@ -64,6 +65,29 @@ class WeatherDetailsViewController: UIViewController {
         self.maximumTemperatureLabel.text = weatherData.maximumTemperature.asCelsiusDegree
         self.pressureLabel.text = weatherData.pressure.asPascal
         self.humidityLabel.text = weatherData.humidity.asPercent
+        
+        if let imageName = self.getImageName(for: weatherData.weatherID, and: weatherData.description) {
+            guard let image = SVGKImage(named: imageName) else { return }
+            image.size = self.weatherImageView.frame.size
+            self.weatherImageView.image = image.uiImage
+        }
+    }
+    
+    private func getImageName(for weatherID: Int, and description: String) -> String? {
+        guard let weathersResourcePath = Bundle.main.url(forResource: "WeatherIcons", withExtension: "json") else { return nil }
+        guard let weathersData = try? Data(contentsOf: weathersResourcePath) else { return nil }
+        do {
+            let weatherDictionary = try JSONDecoder.init().decode([String: [String: String]].self, from: weathersData)
+            guard let innerDictionary = weatherDictionary[weatherID.description] else { return nil }
+            guard let iconName = innerDictionary["icon"] else { return nil }
+            
+            if !(weatherID > 699 && weatherID < 800) && !(weatherID > 899 && weatherID < 1000) {
+                return "wi-day-\(iconName)"
+            }
+            return "wi-\(iconName)"
+        } catch {
+            return nil
+        }
     }
 
 }

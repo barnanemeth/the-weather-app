@@ -14,6 +14,7 @@ struct Weather: Decodable {
     
     let name: String
     let description: String
+    let weatherID: Int
     let icon: String
     let temperature: Double
     let pressure: Double
@@ -45,6 +46,7 @@ struct Weather: Decodable {
     private struct WeatherContainer: Codable {
         let description: String
         let icon: String
+        let id: Int
     }
     
     // MARK: - Initialization
@@ -57,6 +59,7 @@ struct Weather: Decodable {
         let weatherContainer = try weatherArrayContainer.decode(WeatherContainer.self)
         self.description = weatherContainer.description
         self.icon = weatherContainer.icon
+        self.weatherID = weatherContainer.id
         
         
         let mainContainer = try rootContainer.nestedContainer(keyedBy: MainCodingKeys.self, forKey: .mainContainer)
