@@ -59,7 +59,7 @@ final class ApiClient {
     
     public func getWeather(for city: City) -> Promise<Weather> {
         let url = "\(self.serviceAddress)/weather"
-        let parameters: Parameters = ["q": city.name, "appid": self.appID, "unit": "metric", "lang": self.language]
+        let parameters: Parameters = ["q": city.name, "appid": self.appID, "units": "metric", "lang": self.language]
         return self.buildPromise(url: url, parameters: parameters, successStatus: .OK)
     }
     
