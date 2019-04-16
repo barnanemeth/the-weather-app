@@ -8,6 +8,7 @@
 
 import UIKit
 import SkeletonView
+import PromiseKit
 
 class WeatherDetailsViewController: UIViewController {
 
@@ -21,6 +22,7 @@ class WeatherDetailsViewController: UIViewController {
     @IBOutlet private weak var pressureLabel: UILabel!
     @IBOutlet private weak var humidityLabel: UILabel!
     
+    private let apiClient = ApiClient()
     var city: City?
     
     // MARK: - View life cycle
@@ -29,13 +31,38 @@ class WeatherDetailsViewController: UIViewController {
         super.viewDidLoad()
         
         self.setupNavigationBar()
-        self.view.showAnimatedGradientSkeleton()
+        self.fetchWeatherData()
     }
 
     // MARK: - Private methods
     
     private func setupNavigationBar() {
         self.title = self.city?.name
+    }
+    
+    private func fetchWeatherData() {
+        guard let city = self.city else { return }
+        self.view.showAnimatedGradientSkeleton()
+        firstly(execute: {
+            self.apiClient.getWeather(for: city)
+        }).ensure({ [weak self] in
+            self?.view.hideSkeleton()
+        }).done({ [weak self] weather in
+            guard let self = self else { return }
+            self.setupView(for: weather)
+        }).catch({ [weak self] error in
+            print(error)
+        })
+    }
+    
+    private func setupView(for weatherData: Weather) {
+        self.cityLabel.text = self.city?.name
+        self.stateLabel.text = self.city?.state
+        self.temperatureLabel.text = weatherData.temperature.description
+        self.minimumTemperatureLabel.text = weatherData.minimumTemperature.description
+        self.maximumTemperatureLabel.text = weatherData.maximumTemperature.description
+        self.pressureLabel.text = weatherData.pressure.description
+        self.humidityLabel.text = weatherData.humidity.description
     }
 
 }
