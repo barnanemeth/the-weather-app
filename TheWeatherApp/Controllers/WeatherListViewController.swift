@@ -71,5 +71,12 @@ final class WeatherListViewController: UITableViewController {
         return WeatherCell.height
     }
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let weatherDetailsViewController = self.storyboard?.instantiateViewController(withIdentifier: "WeatherDetailsViewController") as? WeatherDetailsViewController else {
+            fatalError("WeatherDetailsViewController not found")
+        }
+        weatherDetailsViewController.city = self.cities[indexPath.row]
+        self.navigationController?.pushViewController(weatherDetailsViewController, animated: true)
+    }
 
 }
