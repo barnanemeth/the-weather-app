@@ -58,11 +58,11 @@ class WeatherDetailsViewController: UIViewController {
     private func setupView(for weatherData: Weather) {
         self.cityLabel.text = self.city?.name
         self.stateLabel.text = self.city?.state
-        self.temperatureLabel.text = weatherData.temperature.description
-        self.minimumTemperatureLabel.text = weatherData.minimumTemperature.description
-        self.maximumTemperatureLabel.text = weatherData.maximumTemperature.description
-        self.pressureLabel.text = weatherData.pressure.description
-        self.humidityLabel.text = weatherData.humidity.description
+        self.temperatureLabel.text = weatherData.temperature.asCelsiusDegree
+        self.minimumTemperatureLabel.text = weatherData.minimumTemperature.asCelsiusDegree
+        self.maximumTemperatureLabel.text = weatherData.maximumTemperature.asCelsiusDegree
+        self.pressureLabel.text = weatherData.pressure.asPascal
+        self.humidityLabel.text = weatherData.humidity.asPercent
     }
 
 }

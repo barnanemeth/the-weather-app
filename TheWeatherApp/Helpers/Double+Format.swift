@@ -15,7 +15,7 @@ extension Double {
     }
     
     var asPercent: String {
-        return String(format: "%0.f%", self)
+        return "\(String(format: "%0.f", self))%"
     }
     
     var asPascal: String {
