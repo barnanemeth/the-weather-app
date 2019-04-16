@@ -14,7 +14,7 @@ final class ApiClient {
     // MARK: - Properties
     
     private let serviceAddress = Bundle.main.object(forInfoDictionaryKey: "ServiceAddress") as! String
-    private let apiKey = Bundle.main.object(forInfoDictionaryKey: "OpenweathermapAppID") as! String
+    private let appID = Bundle.main.object(forInfoDictionaryKey: "OpenweathermapAppID") as! String
     private let language = Locale.preferredLanguages.first!
     private let decoder: JSONDecoder
     
@@ -57,7 +57,11 @@ final class ApiClient {
     
     // MARK: - Public methods
     
-    
+    public func getWeather(for city: City) -> Promise<Weather> {
+        let url = "\(self.serviceAddress)/weather"
+        let parameters: Parameters = ["q": city.name, "appid": self.appID, "unit": "metric", "lang": self.language]
+        return self.buildPromise(url: url, parameters: parameters, successStatus: .OK)
+    }
     
     
 }
