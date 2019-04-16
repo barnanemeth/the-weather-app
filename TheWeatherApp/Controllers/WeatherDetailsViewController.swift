@@ -9,13 +9,14 @@
 import UIKit
 import SkeletonView
 import PromiseKit
+import SVGKit
 
 class WeatherDetailsViewController: UIViewController {
 
     // MARK: - Properties
     
     @IBOutlet private weak var cityLabel: UILabel!
-    @IBOutlet private weak var stateLabel: UILabel!
+    @IBOutlet private weak var weatherDescriptionLabel: UILabel!
     @IBOutlet private weak var temperatureLabel: UILabel!
     @IBOutlet private weak var minimumTemperatureLabel: UILabel!
     @IBOutlet private weak var maximumTemperatureLabel: UILabel!
@@ -57,7 +58,7 @@ class WeatherDetailsViewController: UIViewController {
     
     private func setupView(for weatherData: Weather) {
         self.cityLabel.text = self.city?.name
-        self.stateLabel.text = self.city?.state
+        self.weatherDescriptionLabel.text = weatherData.description.capitalized
         self.temperatureLabel.text = weatherData.temperature.asCelsiusDegree
         self.minimumTemperatureLabel.text = weatherData.minimumTemperature.asCelsiusDegree
         self.maximumTemperatureLabel.text = weatherData.maximumTemperature.asCelsiusDegree

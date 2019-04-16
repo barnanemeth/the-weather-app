@@ -9,5 +9,6 @@ target 'TheWeatherApp' do
   pod 'Kingfisher', '~> 5.1'
   pod 'AlamofireNetworkActivityIndicator', '~> 2.2'
   pod 'SkeletonView'
+  pod 'SVGKit'
 
 end

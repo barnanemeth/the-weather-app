@@ -19,6 +19,6 @@ extension Double {
     }
     
     var asPascal: String {
-        return String(format: "%0.fhPa", self)
+        return String(format: "%0.f hPa", self)
     }
 }
