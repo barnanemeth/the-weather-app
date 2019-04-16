@@ -20,6 +20,225 @@
 		705A5E862264FADB00B32EB5 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705A5E852264FADB00B32EB5 /* Errors.swift */; };
 		705A5E882264FAF900B32EB5 /* HTTPStatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705A5E872264FAF900B32EB5 /* HTTPStatusCodes.swift */; };
 		705A5E8F226664A000B32EB5 /* Double+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705A5E8E226664A000B32EB5 /* Double+Format.swift */; };
+		705A5F6D226669E000B32EB5 /* wi-night-sleet.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E92226669C700B32EB5 /* wi-night-sleet.svg */; };
+		705A5F6E226669E000B32EB5 /* wi-night-cloudy-windy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E93226669C700B32EB5 /* wi-night-cloudy-windy.svg */; };
+		705A5F6F226669E000B32EB5 /* wi-moonrise.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E94226669C700B32EB5 /* wi-moonrise.svg */; };
+		705A5F70226669E000B32EB5 /* wi-wind-deg.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E95226669C700B32EB5 /* wi-wind-deg.svg */; };
+		705A5F71226669E000B32EB5 /* wi-moon-waning-gibbous-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E96226669C700B32EB5 /* wi-moon-waning-gibbous-3.svg */; };
+		705A5F72226669E000B32EB5 /* wi-snowflake-cold.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E97226669C700B32EB5 /* wi-snowflake-cold.svg */; };
+		705A5F73226669E000B32EB5 /* wi-night-partly-cloudy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E98226669C700B32EB5 /* wi-night-partly-cloudy.svg */; };
+		705A5F74226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E99226669C700B32EB5 /* wi-moon-alt-waxing-gibbous-3.svg */; };
+		705A5F75226669E000B32EB5 /* wi-day-cloudy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E9A226669C700B32EB5 /* wi-day-cloudy.svg */; };
+		705A5F76226669E000B32EB5 /* wi-moon-alt-waxing-crescent-6 .svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E9B226669C700B32EB5 /* wi-moon-alt-waxing-crescent-6 .svg */; };
+		705A5F77226669E000B32EB5 /* wi-direction-up-right.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E9C226669C700B32EB5 /* wi-direction-up-right.svg */; };
+		705A5F78226669E000B32EB5 /* wi-moon-full.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E9D226669C700B32EB5 /* wi-moon-full.svg */; };
+		705A5F79226669E000B32EB5 /* wi-wind-beaufort-0.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E9E226669C700B32EB5 /* wi-wind-beaufort-0.svg */; };
+		705A5F7A226669E000B32EB5 /* wi-na.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5E9F226669C800B32EB5 /* wi-na.svg */; };
+		705A5F7B226669E000B32EB5 /* wi-day-snow-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA0226669C800B32EB5 /* wi-day-snow-wind.svg */; };
+		705A5F7C226669E000B32EB5 /* wi-moon-waning-crescent-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA1226669C800B32EB5 /* wi-moon-waning-crescent-1.svg */; };
+		705A5F7D226669E000B32EB5 /* wi-wind-beaufort-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA2226669C800B32EB5 /* wi-wind-beaufort-10.svg */; };
+		705A5F7E226669E000B32EB5 /* wi-wind-beaufort-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA3226669C800B32EB5 /* wi-wind-beaufort-12.svg */; };
+		705A5F7F226669E000B32EB5 /* wi-moon-waxing-crescent-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA4226669C800B32EB5 /* wi-moon-waxing-crescent-3.svg */; };
+		705A5F80226669E000B32EB5 /* wi-cloudy-gusts.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA5226669C800B32EB5 /* wi-cloudy-gusts.svg */; };
+		705A5F81226669E000B32EB5 /* wi-moon-alt-waxing-crescent-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA6226669C800B32EB5 /* wi-moon-alt-waxing-crescent-2.svg */; };
+		705A5F82226669E000B32EB5 /* wi-time-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA7226669C800B32EB5 /* wi-time-12.svg */; };
+		705A5F83226669E000B32EB5 /* wi-fire.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA8226669C800B32EB5 /* wi-fire.svg */; };
+		705A5F84226669E000B32EB5 /* wi-wind-beaufort-7.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EA9226669C800B32EB5 /* wi-wind-beaufort-7.svg */; };
+		705A5F85226669E000B32EB5 /* wi-moon-waning-crescent-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EAA226669C800B32EB5 /* wi-moon-waning-crescent-3.svg */; };
+		705A5F86226669E000B32EB5 /* wi-moon-alt-waxing-crescent-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EAB226669C900B32EB5 /* wi-moon-alt-waxing-crescent-5.svg */; };
+		705A5F87226669E000B32EB5 /* wi-moon-waxing-gibbous-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EAC226669C900B32EB5 /* wi-moon-waxing-gibbous-6.svg */; };
+		705A5F88226669E000B32EB5 /* wi-snow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EAD226669C900B32EB5 /* wi-snow.svg */; };
+		705A5F89226669E000B32EB5 /* wi-hurricane.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EAE226669C900B32EB5 /* wi-hurricane.svg */; };
+		705A5F8A226669E000B32EB5 /* wi-day-lightning.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EAF226669C900B32EB5 /* wi-day-lightning.svg */; };
+		705A5F8B226669E000B32EB5 /* wi-night-clear.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB0226669C900B32EB5 /* wi-night-clear.svg */; };
+		705A5F8C226669E000B32EB5 /* wi-cloudy-windy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB1226669C900B32EB5 /* wi-cloudy-windy.svg */; };
+		705A5F8D226669E000B32EB5 /* wi-thermometer-exterior.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB2226669C900B32EB5 /* wi-thermometer-exterior.svg */; };
+		705A5F8E226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-6 .svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB3226669C900B32EB5 /* wi-moon-alt-waxing-gibbous-6 .svg */; };
+		705A5F8F226669E000B32EB5 /* wi-direction-up-left.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB4226669C900B32EB5 /* wi-direction-up-left.svg */; };
+		705A5F90226669E000B32EB5 /* wi-night-lightning.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB5226669C900B32EB5 /* wi-night-lightning.svg */; };
+		705A5F91226669E000B32EB5 /* wi-windy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB6226669CA00B32EB5 /* wi-windy.svg */; };
+		705A5F92226669E000B32EB5 /* wi-rain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB7226669CA00B32EB5 /* wi-rain.svg */; };
+		705A5F93226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB8226669CA00B32EB5 /* wi-moon-alt-waxing-gibbous-1.svg */; };
+		705A5F94226669E000B32EB5 /* wi-night-alt-rain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EB9226669CA00B32EB5 /* wi-night-alt-rain.svg */; };
+		705A5F95226669E000B32EB5 /* wi-night-cloudy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EBA226669CA00B32EB5 /* wi-night-cloudy.svg */; };
+		705A5F96226669E000B32EB5 /* wi-night-alt-rain-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EBB226669CA00B32EB5 /* wi-night-alt-rain-wind.svg */; };
+		705A5F97226669E000B32EB5 /* wi-time-9.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EBC226669CA00B32EB5 /* wi-time-9.svg */; };
+		705A5F98226669E000B32EB5 /* wi-train.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EBD226669CA00B32EB5 /* wi-train.svg */; };
+		705A5F99226669E000B32EB5 /* wi-cloud-down.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EBE226669CA00B32EB5 /* wi-cloud-down.svg */; };
+		705A5F9A226669E000B32EB5 /* wi-night-showers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EBF226669CA00B32EB5 /* wi-night-showers.svg */; };
+		705A5F9B226669E000B32EB5 /* wi-moon-alt-waning-crescent-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC0226669CA00B32EB5 /* wi-moon-alt-waning-crescent-4.svg */; };
+		705A5F9C226669E000B32EB5 /* wi-moon-waxing-gibbous-4 .svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC1226669CB00B32EB5 /* wi-moon-waxing-gibbous-4 .svg */; };
+		705A5F9D226669E000B32EB5 /* wi-wind-beaufort-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC2226669CB00B32EB5 /* wi-wind-beaufort-2.svg */; };
+		705A5F9E226669E000B32EB5 /* wi-night-snow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC3226669CB00B32EB5 /* wi-night-snow.svg */; };
+		705A5F9F226669E000B32EB5 /* wi-day-rain-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC4226669CB00B32EB5 /* wi-day-rain-wind.svg */; };
+		705A5FA0226669E000B32EB5 /* wi-moon-alt-waning-crescent-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC5226669CB00B32EB5 /* wi-moon-alt-waning-crescent-2.svg */; };
+		705A5FA1226669E000B32EB5 /* wi-night-alt-sleet-storm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC6226669CB00B32EB5 /* wi-night-alt-sleet-storm.svg */; };
+		705A5FA2226669E000B32EB5 /* wi-flood.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC7226669CB00B32EB5 /* wi-flood.svg */; };
+		705A5FA3226669E000B32EB5 /* wi-moon-new.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC8226669CB00B32EB5 /* wi-moon-new.svg */; };
+		705A5FA4226669E000B32EB5 /* wi-time-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EC9226669CB00B32EB5 /* wi-time-1.svg */; };
+		705A5FA5226669E000B32EB5 /* wi-night-alt-snow-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ECA226669CB00B32EB5 /* wi-night-alt-snow-wind.svg */; };
+		705A5FA6226669E000B32EB5 /* wi-moon-waxing-crescent-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ECB226669CB00B32EB5 /* wi-moon-waxing-crescent-1.svg */; };
+		705A5FA7226669E000B32EB5 /* wi-sandstorm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ECC226669CB00B32EB5 /* wi-sandstorm.svg */; };
+		705A5FA8226669E000B32EB5 /* wi-day-sleet.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ECD226669CB00B32EB5 /* wi-day-sleet.svg */; };
+		705A5FA9226669E000B32EB5 /* wi-wind-beaufort-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ECE226669CB00B32EB5 /* wi-wind-beaufort-4.svg */; };
+		705A5FAA226669E000B32EB5 /* wi-thunderstorm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ECF226669CC00B32EB5 /* wi-thunderstorm.svg */; };
+		705A5FAB226669E000B32EB5 /* wi-humidity.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED0226669CC00B32EB5 /* wi-humidity.svg */; };
+		705A5FAC226669E000B32EB5 /* wi-night-rain-mix.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED1226669CC00B32EB5 /* wi-night-rain-mix.svg */; };
+		705A5FAD226669E000B32EB5 /* wi-thermometer-internal.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED2226669CC00B32EB5 /* wi-thermometer-internal.svg */; };
+		705A5FAE226669E000B32EB5 /* wi-moon-alt-waning-crescent-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED3226669CC00B32EB5 /* wi-moon-alt-waning-crescent-5.svg */; };
+		705A5FAF226669E000B32EB5 /* wi-moon-alt-waning-gibbous-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED4226669CC00B32EB5 /* wi-moon-alt-waning-gibbous-6.svg */; };
+		705A5FB0226669E000B32EB5 /* wi-night-alt-partly-cloudy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED5226669CC00B32EB5 /* wi-night-alt-partly-cloudy.svg */; };
+		705A5FB1226669E000B32EB5 /* wi-day-windy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED6226669CC00B32EB5 /* wi-day-windy.svg */; };
+		705A5FB2226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED7226669CC00B32EB5 /* wi-moon-alt-waxing-gibbous-4.svg */; };
+		705A5FB3226669E000B32EB5 /* wi-time-8.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED8226669CC00B32EB5 /* wi-time-8.svg */; };
+		705A5FB4226669E000B32EB5 /* wi-night-rain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5ED9226669CC00B32EB5 /* wi-night-rain.svg */; };
+		705A5FB5226669E000B32EB5 /* wi-thermometer.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EDA226669CC00B32EB5 /* wi-thermometer.svg */; };
+		705A5FB6226669E000B32EB5 /* wi-day-haze.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EDB226669CC00B32EB5 /* wi-day-haze.svg */; };
+		705A5FB7226669E000B32EB5 /* wi-moon-alt-waxing-crescent-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EDC226669CC00B32EB5 /* wi-moon-alt-waxing-crescent-3.svg */; };
+		705A5FB8226669E000B32EB5 /* wi-cloud-refresh.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EDD226669CD00B32EB5 /* wi-cloud-refresh.svg */; };
+		705A5FB9226669E000B32EB5 /* wi-moon-alt-first-quarter.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EDE226669CD00B32EB5 /* wi-moon-alt-first-quarter.svg */; };
+		705A5FBA226669E000B32EB5 /* wi-moon-waning-gibbous-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EDF226669CD00B32EB5 /* wi-moon-waning-gibbous-4.svg */; };
+		705A5FBB226669E000B32EB5 /* wi-moon-alt-waning-crescent-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE0226669CD00B32EB5 /* wi-moon-alt-waning-crescent-6.svg */; };
+		705A5FBC226669E000B32EB5 /* wi-gale-warning.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE1226669CD00B32EB5 /* wi-gale-warning.svg */; };
+		705A5FBD226669E000B32EB5 /* wi-moon-waning-crescent-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE2226669CD00B32EB5 /* wi-moon-waning-crescent-6.svg */; };
+		705A5FBE226669E000B32EB5 /* wi-night-alt-sleet.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE3226669CD00B32EB5 /* wi-night-alt-sleet.svg */; };
+		705A5FBF226669E000B32EB5 /* wi-volcano.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE4226669CD00B32EB5 /* wi-volcano.svg */; };
+		705A5FC0226669E000B32EB5 /* wi-day-snow-thunderstorm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE5226669CD00B32EB5 /* wi-day-snow-thunderstorm.svg */; };
+		705A5FC1226669E000B32EB5 /* wi-strong-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE6226669CD00B32EB5 /* wi-strong-wind.svg */; };
+		705A5FC2226669E000B32EB5 /* wi-day-thunderstorm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE7226669CD00B32EB5 /* wi-day-thunderstorm.svg */; };
+		705A5FC3226669E000B32EB5 /* wi-moon-waxing-gibbous-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE8226669CD00B32EB5 /* wi-moon-waxing-gibbous-3.svg */; };
+		705A5FC4226669E000B32EB5 /* wi-moon-alt-waning-crescent-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EE9226669CD00B32EB5 /* wi-moon-alt-waning-crescent-1.svg */; };
+		705A5FC5226669E000B32EB5 /* wi-moon-alt-waning-gibbous-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EEA226669CE00B32EB5 /* wi-moon-alt-waning-gibbous-3.svg */; };
+		705A5FC6226669E000B32EB5 /* wi-raindrop.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EEB226669CE00B32EB5 /* wi-raindrop.svg */; };
+		705A5FC7226669E000B32EB5 /* wi-cloud-up.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EEC226669CE00B32EB5 /* wi-cloud-up.svg */; };
+		705A5FC8226669E000B32EB5 /* wi-day-light-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EED226669CE00B32EB5 /* wi-day-light-wind.svg */; };
+		705A5FC9226669E000B32EB5 /* wi-night-alt-snow-thunderstorm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EEE226669CE00B32EB5 /* wi-night-alt-snow-thunderstorm.svg */; };
+		705A5FCA226669E000B32EB5 /* wi-day-fog.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EEF226669CE00B32EB5 /* wi-day-fog.svg */; };
+		705A5FCB226669E000B32EB5 /* wi-night-alt-snow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF0226669CE00B32EB5 /* wi-night-alt-snow.svg */; };
+		705A5FCC226669E000B32EB5 /* wi-moon-alt-full.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF1226669CE00B32EB5 /* wi-moon-alt-full.svg */; };
+		705A5FCD226669E000B32EB5 /* wi-moon-alt-third-quarter.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF2226669CE00B32EB5 /* wi-moon-alt-third-quarter.svg */; };
+		705A5FCE226669E000B32EB5 /* wi-night-snow-thunderstorm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF3226669CE00B32EB5 /* wi-night-snow-thunderstorm.svg */; };
+		705A5FCF226669E000B32EB5 /* wi-day-hail.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF4226669CE00B32EB5 /* wi-day-hail.svg */; };
+		705A5FD0226669E000B32EB5 /* wi-smoke.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF5226669CE00B32EB5 /* wi-smoke.svg */; };
+		705A5FD1226669E000B32EB5 /* wi-tornado.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF6226669CE00B32EB5 /* wi-tornado.svg */; };
+		705A5FD2226669E000B32EB5 /* wi-moon-alt-waxing-crescent-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF7226669CF00B32EB5 /* wi-moon-alt-waxing-crescent-4.svg */; };
+		705A5FD3226669E000B32EB5 /* wi-night-alt-cloudy-windy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF8226669CF00B32EB5 /* wi-night-alt-cloudy-windy.svg */; };
+		705A5FD4226669E000B32EB5 /* wi-day-cloudy-gusts.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EF9226669CF00B32EB5 /* wi-day-cloudy-gusts.svg */; };
+		705A5FD5226669E000B32EB5 /* wi-night-cloudy-high.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EFA226669CF00B32EB5 /* wi-night-cloudy-high.svg */; };
+		705A5FD6226669E000B32EB5 /* wi-storm-showers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EFB226669CF00B32EB5 /* wi-storm-showers.svg */; };
+		705A5FD7226669E000B32EB5 /* wi-moon-waning-gibbous-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EFC226669CF00B32EB5 /* wi-moon-waning-gibbous-1.svg */; };
+		705A5FD8226669E000B32EB5 /* wi-showers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EFD226669CF00B32EB5 /* wi-showers.svg */; };
+		705A5FD9226669E000B32EB5 /* wi-night-storm-showers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EFE226669CF00B32EB5 /* wi-night-storm-showers.svg */; };
+		705A5FDA226669E000B32EB5 /* wi-fahrenheit.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5EFF226669CF00B32EB5 /* wi-fahrenheit.svg */; };
+		705A5FDB226669E000B32EB5 /* wi-refresh-alt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F00226669CF00B32EB5 /* wi-refresh-alt.svg */; };
+		705A5FDC226669E000B32EB5 /* wi-moon-alt-waxing-crescent-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F01226669CF00B32EB5 /* wi-moon-alt-waxing-crescent-1.svg */; };
+		705A5FDD226669E000B32EB5 /* wi-moon-waxing-gibbous-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F02226669CF00B32EB5 /* wi-moon-waxing-gibbous-2.svg */; };
+		705A5FDE226669E000B32EB5 /* wi-time-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F03226669D000B32EB5 /* wi-time-6.svg */; };
+		705A5FDF226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F04226669D000B32EB5 /* wi-moon-alt-waxing-gibbous-5.svg */; };
+		705A5FE0226669E000B32EB5 /* wi-fog.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F05226669D000B32EB5 /* wi-fog.svg */; };
+		705A5FE1226669E000B32EB5 /* wi-raindrops.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F06226669D000B32EB5 /* wi-raindrops.svg */; };
+		705A5FE2226669E000B32EB5 /* wi-wind-beaufort-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F07226669D000B32EB5 /* wi-wind-beaufort-6.svg */; };
+		705A5FE3226669E000B32EB5 /* wi-moon-waning-crescent-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F08226669D000B32EB5 /* wi-moon-waning-crescent-2.svg */; };
+		705A5FE4226669E000B32EB5 /* wi-small-craft-advisory.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F09226669D000B32EB5 /* wi-small-craft-advisory.svg */; };
+		705A5FE5226669E000B32EB5 /* wi-time-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F0A226669D000B32EB5 /* wi-time-3.svg */; };
+		705A5FE6226669E000B32EB5 /* wi-smog.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F0B226669D000B32EB5 /* wi-smog.svg */; };
+		705A5FE7226669E000B32EB5 /* wi-moon-first-quarter.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F0C226669D000B32EB5 /* wi-moon-first-quarter.svg */; };
+		705A5FE8226669E000B32EB5 /* wi-direction-right.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F0D226669D000B32EB5 /* wi-direction-right.svg */; };
+		705A5FE9226669E000B32EB5 /* wi-sunset.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F0E226669D000B32EB5 /* wi-sunset.svg */; };
+		705A5FEA226669E000B32EB5 /* wi-moon-waning-crescent-4 .svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F0F226669D100B32EB5 /* wi-moon-waning-crescent-4 .svg */; };
+		705A5FEB226669E000B32EB5 /* wi-day-rain-mix.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F10226669D100B32EB5 /* wi-day-rain-mix.svg */; };
+		705A5FEC226669E000B32EB5 /* wi-horizon-alt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F11226669D100B32EB5 /* wi-horizon-alt.svg */; };
+		705A5FED226669E000B32EB5 /* wi-cloudy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F12226669D100B32EB5 /* wi-cloudy.svg */; };
+		705A5FEE226669E000B32EB5 /* wi-day-sleet-storm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F13226669D200B32EB5 /* wi-day-sleet-storm.svg */; };
+		705A5FEF226669E000B32EB5 /* wi-night-alt-rain-mix.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F14226669D200B32EB5 /* wi-night-alt-rain-mix.svg */; };
+		705A5FF0226669E000B32EB5 /* wi-tsunami.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F15226669D200B32EB5 /* wi-tsunami.svg */; };
+		705A5FF1226669E000B32EB5 /* wi-moon-waxing-crescent-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F16226669D200B32EB5 /* wi-moon-waxing-crescent-4.svg */; };
+		705A5FF2226669E000B32EB5 /* wi-night-snow-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F17226669D200B32EB5 /* wi-night-snow-wind.svg */; };
+		705A5FF3226669E000B32EB5 /* wi-day-storm-showers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F18226669D200B32EB5 /* wi-day-storm-showers.svg */; };
+		705A5FF4226669E000B32EB5 /* wi-hot.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F19226669D200B32EB5 /* wi-hot.svg */; };
+		705A5FF5226669E000B32EB5 /* wi-horizon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F1A226669D200B32EB5 /* wi-horizon.svg */; };
+		705A5FF6226669E000B32EB5 /* wi-celsius.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F1B226669D200B32EB5 /* wi-celsius.svg */; };
+		705A5FF7226669E000B32EB5 /* wi-day-sprinkle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F1C226669D300B32EB5 /* wi-day-sprinkle.svg */; };
+		705A5FF8226669E000B32EB5 /* wi-moon-alt-new.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F1D226669D300B32EB5 /* wi-moon-alt-new.svg */; };
+		705A5FF9226669E000B32EB5 /* wi-alien.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F1E226669D300B32EB5 /* wi-alien.svg */; };
+		705A5FFA226669E000B32EB5 /* wi-lightning.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F1F226669D300B32EB5 /* wi-lightning.svg */; };
+		705A5FFB226669E000B32EB5 /* wi-moon-waning-gibbous-6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F20226669D300B32EB5 /* wi-moon-waning-gibbous-6.svg */; };
+		705A5FFC226669E000B32EB5 /* wi-dust.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F21226669D300B32EB5 /* wi-dust.svg */; };
+		705A5FFD226669E000B32EB5 /* wi-direction-up.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F22226669D300B32EB5 /* wi-direction-up.svg */; };
+		705A5FFE226669E000B32EB5 /* wi-moon-third-quarter.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F23226669D300B32EB5 /* wi-moon-third-quarter.svg */; };
+		705A5FFF226669E000B32EB5 /* wi-degrees.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F24226669D300B32EB5 /* wi-degrees.svg */; };
+		705A6000226669E000B32EB5 /* wi-wind-beaufort-11.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F25226669D300B32EB5 /* wi-wind-beaufort-11.svg */; };
+		705A6001226669E000B32EB5 /* wi-meteor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F26226669D300B32EB5 /* wi-meteor.svg */; };
+		705A6002226669E000B32EB5 /* wi-moon-alt-waning-gibbous-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F27226669D400B32EB5 /* wi-moon-alt-waning-gibbous-5.svg */; };
+		705A6003226669E100B32EB5 /* wi-night-sleet-storm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F28226669D400B32EB5 /* wi-night-sleet-storm.svg */; };
+		705A6004226669E100B32EB5 /* wi-night-sprinkle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F29226669D400B32EB5 /* wi-night-sprinkle.svg */; };
+		705A6005226669E100B32EB5 /* wi-night-alt-hail.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F2A226669D400B32EB5 /* wi-night-alt-hail.svg */; };
+		705A6006226669E100B32EB5 /* wi-time-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F2B226669D400B32EB5 /* wi-time-10.svg */; };
+		705A6007226669E100B32EB5 /* wi-wind-beaufort-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F2C226669D400B32EB5 /* wi-wind-beaufort-1.svg */; };
+		705A6008226669E100B32EB5 /* wi-direction-down.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F2D226669D400B32EB5 /* wi-direction-down.svg */; };
+		705A6009226669E100B32EB5 /* wi-moon-waxing-crescent-6 .svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F2E226669D400B32EB5 /* wi-moon-waxing-crescent-6 .svg */; };
+		705A600A226669E100B32EB5 /* wi-time-11.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F2F226669D400B32EB5 /* wi-time-11.svg */; };
+		705A600B226669E100B32EB5 /* wi-night-hail.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F30226669D400B32EB5 /* wi-night-hail.svg */; };
+		705A600C226669E100B32EB5 /* wi-moon-alt-waning-gibbous-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F31226669D500B32EB5 /* wi-moon-alt-waning-gibbous-2.svg */; };
+		705A600D226669E100B32EB5 /* wi-lunar-eclipse.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F32226669D500B32EB5 /* wi-lunar-eclipse.svg */; };
+		705A600E226669E100B32EB5 /* wi-solar-eclipse.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F33226669D500B32EB5 /* wi-solar-eclipse.svg */; };
+		705A600F226669E100B32EB5 /* wi-moon-waxing-crescent-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F34226669D500B32EB5 /* wi-moon-waxing-crescent-2.svg */; };
+		705A6010226669E100B32EB5 /* wi-time-7.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F35226669D500B32EB5 /* wi-time-7.svg */; };
+		705A6011226669E100B32EB5 /* wi-time-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F36226669D500B32EB5 /* wi-time-5.svg */; };
+		705A6012226669E100B32EB5 /* wi-rain-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F37226669D500B32EB5 /* wi-rain-wind.svg */; };
+		705A6013226669E100B32EB5 /* wi-rain-mix.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F38226669D500B32EB5 /* wi-rain-mix.svg */; };
+		705A6014226669E100B32EB5 /* wi-moon-waxing-crescent-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F39226669D600B32EB5 /* wi-moon-waxing-crescent-5.svg */; };
+		705A6015226669E100B32EB5 /* wi-snow-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F3A226669D600B32EB5 /* wi-snow-wind.svg */; };
+		705A6016226669E100B32EB5 /* wi-night-alt-cloudy-high.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F3B226669D600B32EB5 /* wi-night-alt-cloudy-high.svg */; };
+		705A6017226669E100B32EB5 /* wi-direction-left.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F3C226669D600B32EB5 /* wi-direction-left.svg */; };
+		705A6018226669E100B32EB5 /* wi-moon-waxing-gibbous-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F3D226669D700B32EB5 /* wi-moon-waxing-gibbous-1.svg */; };
+		705A6019226669E100B32EB5 /* wi-time-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F3E226669D700B32EB5 /* wi-time-2.svg */; };
+		705A601A226669E100B32EB5 /* wi-wind-beaufort-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F3F226669D700B32EB5 /* wi-wind-beaufort-5.svg */; };
+		705A601B226669E100B32EB5 /* wi-moon-waning-crescent-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F40226669D800B32EB5 /* wi-moon-waning-crescent-5.svg */; };
+		705A601C226669E100B32EB5 /* wi-wind-beaufort-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F41226669D800B32EB5 /* wi-wind-beaufort-3.svg */; };
+		705A601D226669E100B32EB5 /* wi-moon-waning-gibbous-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F42226669D800B32EB5 /* wi-moon-waning-gibbous-2.svg */; };
+		705A601E226669E100B32EB5 /* wi-day-snow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F43226669D800B32EB5 /* wi-day-snow.svg */; };
+		705A601F226669E100B32EB5 /* wi-wind-beaufort-8.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F44226669D800B32EB5 /* wi-wind-beaufort-8.svg */; };
+		705A6020226669E100B32EB5 /* wi-moon-waning-gibbous-5 .svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F45226669D900B32EB5 /* wi-moon-waning-gibbous-5 .svg */; };
+		705A6021226669E100B32EB5 /* wi-night-thunderstorm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F46226669D900B32EB5 /* wi-night-thunderstorm.svg */; };
+		705A6022226669E100B32EB5 /* wi-refresh.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F47226669D900B32EB5 /* wi-refresh.svg */; };
+		705A6023226669E100B32EB5 /* wi-night-fog.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F48226669D900B32EB5 /* wi-night-fog.svg */; };
+		705A6024226669E100B32EB5 /* wi-time-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F49226669DA00B32EB5 /* wi-time-4.svg */; };
+		705A6025226669E100B32EB5 /* wi-night-alt-cloudy-gusts.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F4A226669DA00B32EB5 /* wi-night-alt-cloudy-gusts.svg */; };
+		705A6026226669E100B32EB5 /* wi-cloud.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F4B226669DA00B32EB5 /* wi-cloud.svg */; };
+		705A6027226669E100B32EB5 /* wi-moon-alt-waning-gibbous-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F4C226669DA00B32EB5 /* wi-moon-alt-waning-gibbous-1.svg */; };
+		705A6028226669E100B32EB5 /* wi-night-alt-showers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F4D226669DA00B32EB5 /* wi-night-alt-showers.svg */; };
+		705A6029226669E100B32EB5 /* wi-day-rain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F4E226669DB00B32EB5 /* wi-day-rain.svg */; };
+		705A602A226669E100B32EB5 /* wi-day-sunny.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F4F226669DB00B32EB5 /* wi-day-sunny.svg */; };
+		705A602B226669E100B32EB5 /* wi-hurricane-warning.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F50226669DB00B32EB5 /* wi-hurricane-warning.svg */; };
+		705A602C226669E100B32EB5 /* wi-direction-down-right.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F51226669DB00B32EB5 /* wi-direction-down-right.svg */; };
+		705A602D226669E100B32EB5 /* wi-day-cloudy-windy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F52226669DB00B32EB5 /* wi-day-cloudy-windy.svg */; };
+		705A602E226669E100B32EB5 /* wi-sunrise.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F53226669DB00B32EB5 /* wi-sunrise.svg */; };
+		705A602F226669E100B32EB5 /* wi-hail.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F54226669DC00B32EB5 /* wi-hail.svg */; };
+		705A6030226669E100B32EB5 /* wi-night-rain-wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F55226669DC00B32EB5 /* wi-night-rain-wind.svg */; };
+		705A6031226669E100B32EB5 /* wi-day-showers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F56226669DC00B32EB5 /* wi-day-showers.svg */; };
+		705A6032226669E100B32EB5 /* wi-moon-alt-waning-gibbous-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F57226669DC00B32EB5 /* wi-moon-alt-waning-gibbous-4.svg */; };
+		705A6033226669E100B32EB5 /* wi-stars.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F58226669DC00B32EB5 /* wi-stars.svg */; };
+		705A6034226669E100B32EB5 /* wi-storm-warning.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F59226669DC00B32EB5 /* wi-storm-warning.svg */; };
+		705A6035226669E100B32EB5 /* wi-sprinkle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F5A226669DD00B32EB5 /* wi-sprinkle.svg */; };
+		705A6036226669E100B32EB5 /* wi-night-cloudy-gusts.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F5B226669DD00B32EB5 /* wi-night-cloudy-gusts.svg */; };
+		705A6037226669E100B32EB5 /* wi-earthquake.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F5C226669DD00B32EB5 /* wi-earthquake.svg */; };
+		705A6038226669E100B32EB5 /* wi-day-cloudy-high.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F5D226669DD00B32EB5 /* wi-day-cloudy-high.svg */; };
+		705A6039226669E100B32EB5 /* wi-night-alt-sprinkle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F5E226669DD00B32EB5 /* wi-night-alt-sprinkle.svg */; };
+		705A603A226669E100B32EB5 /* wi-night-alt-storm-showers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F5F226669DD00B32EB5 /* wi-night-alt-storm-showers.svg */; };
+		705A603B226669E100B32EB5 /* wi-moon-alt-waning-crescent-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F60226669DD00B32EB5 /* wi-moon-alt-waning-crescent-3.svg */; };
+		705A603C226669E100B32EB5 /* wi-night-alt-thunderstorm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F61226669DD00B32EB5 /* wi-night-alt-thunderstorm.svg */; };
+		705A603D226669E100B32EB5 /* wi-day-sunny-overcast.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F62226669DE00B32EB5 /* wi-day-sunny-overcast.svg */; };
+		705A603E226669E100B32EB5 /* wi-night-alt-cloudy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F63226669DE00B32EB5 /* wi-night-alt-cloudy.svg */; };
+		705A603F226669E100B32EB5 /* wi-umbrella.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F64226669DE00B32EB5 /* wi-umbrella.svg */; };
+		705A6040226669E100B32EB5 /* wi-barometer.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F65226669DE00B32EB5 /* wi-barometer.svg */; };
+		705A6041226669E100B32EB5 /* wi-moon-alt-waxing-gibbous-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F66226669DE00B32EB5 /* wi-moon-alt-waxing-gibbous-2.svg */; };
+		705A6042226669E100B32EB5 /* wi-sleet.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F67226669DE00B32EB5 /* wi-sleet.svg */; };
+		705A6043226669E100B32EB5 /* wi-moonset.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F68226669DF00B32EB5 /* wi-moonset.svg */; };
+		705A6044226669E100B32EB5 /* wi-night-alt-lightning.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F69226669DF00B32EB5 /* wi-night-alt-lightning.svg */; };
+		705A6045226669E100B32EB5 /* wi-wind-beaufort-9.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F6A226669DF00B32EB5 /* wi-wind-beaufort-9.svg */; };
+		705A6046226669E100B32EB5 /* wi-direction-down-left.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F6B226669DF00B32EB5 /* wi-direction-down-left.svg */; };
+		705A6047226669E100B32EB5 /* wi-moon-waxing-gibbous-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = 705A5F6C226669E000B32EB5 /* wi-moon-waxing-gibbous-5.svg */; };
 		70BA277922649CE70078218E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BA277822649CE70078218E /* AppDelegate.swift */; };
 		70BA278022649CE90078218E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BA277F22649CE90078218E /* Assets.xcassets */; };
 		AFC9D380EC718A43AC0F6C40 /* Pods_TheWeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EFF5D8B6FC1A3473F922D0 /* Pods_TheWeatherApp.framework */; };
@@ -42,6 +261,225 @@
 		705A5E852264FADB00B32EB5 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		705A5E872264FAF900B32EB5 /* HTTPStatusCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCodes.swift; sourceTree = "<group>"; };
 		705A5E8E226664A000B32EB5 /* Double+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Format.swift"; sourceTree = "<group>"; };
+		705A5E92226669C700B32EB5 /* wi-night-sleet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-sleet.svg"; sourceTree = "<group>"; };
+		705A5E93226669C700B32EB5 /* wi-night-cloudy-windy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-cloudy-windy.svg"; sourceTree = "<group>"; };
+		705A5E94226669C700B32EB5 /* wi-moonrise.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moonrise.svg"; sourceTree = "<group>"; };
+		705A5E95226669C700B32EB5 /* wi-wind-deg.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-deg.svg"; sourceTree = "<group>"; };
+		705A5E96226669C700B32EB5 /* wi-moon-waning-gibbous-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-gibbous-3.svg"; sourceTree = "<group>"; };
+		705A5E97226669C700B32EB5 /* wi-snowflake-cold.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-snowflake-cold.svg"; sourceTree = "<group>"; };
+		705A5E98226669C700B32EB5 /* wi-night-partly-cloudy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-partly-cloudy.svg"; sourceTree = "<group>"; };
+		705A5E99226669C700B32EB5 /* wi-moon-alt-waxing-gibbous-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-gibbous-3.svg"; sourceTree = "<group>"; };
+		705A5E9A226669C700B32EB5 /* wi-day-cloudy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-cloudy.svg"; sourceTree = "<group>"; };
+		705A5E9B226669C700B32EB5 /* wi-moon-alt-waxing-crescent-6 .svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-crescent-6 .svg"; sourceTree = "<group>"; };
+		705A5E9C226669C700B32EB5 /* wi-direction-up-right.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-direction-up-right.svg"; sourceTree = "<group>"; };
+		705A5E9D226669C700B32EB5 /* wi-moon-full.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-full.svg"; sourceTree = "<group>"; };
+		705A5E9E226669C700B32EB5 /* wi-wind-beaufort-0.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-0.svg"; sourceTree = "<group>"; };
+		705A5E9F226669C800B32EB5 /* wi-na.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-na.svg"; sourceTree = "<group>"; };
+		705A5EA0226669C800B32EB5 /* wi-day-snow-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-snow-wind.svg"; sourceTree = "<group>"; };
+		705A5EA1226669C800B32EB5 /* wi-moon-waning-crescent-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-crescent-1.svg"; sourceTree = "<group>"; };
+		705A5EA2226669C800B32EB5 /* wi-wind-beaufort-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-10.svg"; sourceTree = "<group>"; };
+		705A5EA3226669C800B32EB5 /* wi-wind-beaufort-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-12.svg"; sourceTree = "<group>"; };
+		705A5EA4226669C800B32EB5 /* wi-moon-waxing-crescent-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-crescent-3.svg"; sourceTree = "<group>"; };
+		705A5EA5226669C800B32EB5 /* wi-cloudy-gusts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-cloudy-gusts.svg"; sourceTree = "<group>"; };
+		705A5EA6226669C800B32EB5 /* wi-moon-alt-waxing-crescent-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-crescent-2.svg"; sourceTree = "<group>"; };
+		705A5EA7226669C800B32EB5 /* wi-time-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-12.svg"; sourceTree = "<group>"; };
+		705A5EA8226669C800B32EB5 /* wi-fire.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-fire.svg"; sourceTree = "<group>"; };
+		705A5EA9226669C800B32EB5 /* wi-wind-beaufort-7.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-7.svg"; sourceTree = "<group>"; };
+		705A5EAA226669C800B32EB5 /* wi-moon-waning-crescent-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-crescent-3.svg"; sourceTree = "<group>"; };
+		705A5EAB226669C900B32EB5 /* wi-moon-alt-waxing-crescent-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-crescent-5.svg"; sourceTree = "<group>"; };
+		705A5EAC226669C900B32EB5 /* wi-moon-waxing-gibbous-6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-gibbous-6.svg"; sourceTree = "<group>"; };
+		705A5EAD226669C900B32EB5 /* wi-snow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-snow.svg"; sourceTree = "<group>"; };
+		705A5EAE226669C900B32EB5 /* wi-hurricane.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-hurricane.svg"; sourceTree = "<group>"; };
+		705A5EAF226669C900B32EB5 /* wi-day-lightning.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-lightning.svg"; sourceTree = "<group>"; };
+		705A5EB0226669C900B32EB5 /* wi-night-clear.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-clear.svg"; sourceTree = "<group>"; };
+		705A5EB1226669C900B32EB5 /* wi-cloudy-windy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-cloudy-windy.svg"; sourceTree = "<group>"; };
+		705A5EB2226669C900B32EB5 /* wi-thermometer-exterior.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-thermometer-exterior.svg"; sourceTree = "<group>"; };
+		705A5EB3226669C900B32EB5 /* wi-moon-alt-waxing-gibbous-6 .svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-gibbous-6 .svg"; sourceTree = "<group>"; };
+		705A5EB4226669C900B32EB5 /* wi-direction-up-left.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-direction-up-left.svg"; sourceTree = "<group>"; };
+		705A5EB5226669C900B32EB5 /* wi-night-lightning.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-lightning.svg"; sourceTree = "<group>"; };
+		705A5EB6226669CA00B32EB5 /* wi-windy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-windy.svg"; sourceTree = "<group>"; };
+		705A5EB7226669CA00B32EB5 /* wi-rain.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-rain.svg"; sourceTree = "<group>"; };
+		705A5EB8226669CA00B32EB5 /* wi-moon-alt-waxing-gibbous-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-gibbous-1.svg"; sourceTree = "<group>"; };
+		705A5EB9226669CA00B32EB5 /* wi-night-alt-rain.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-rain.svg"; sourceTree = "<group>"; };
+		705A5EBA226669CA00B32EB5 /* wi-night-cloudy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-cloudy.svg"; sourceTree = "<group>"; };
+		705A5EBB226669CA00B32EB5 /* wi-night-alt-rain-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-rain-wind.svg"; sourceTree = "<group>"; };
+		705A5EBC226669CA00B32EB5 /* wi-time-9.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-9.svg"; sourceTree = "<group>"; };
+		705A5EBD226669CA00B32EB5 /* wi-train.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-train.svg"; sourceTree = "<group>"; };
+		705A5EBE226669CA00B32EB5 /* wi-cloud-down.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-cloud-down.svg"; sourceTree = "<group>"; };
+		705A5EBF226669CA00B32EB5 /* wi-night-showers.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-showers.svg"; sourceTree = "<group>"; };
+		705A5EC0226669CA00B32EB5 /* wi-moon-alt-waning-crescent-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-crescent-4.svg"; sourceTree = "<group>"; };
+		705A5EC1226669CB00B32EB5 /* wi-moon-waxing-gibbous-4 .svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-gibbous-4 .svg"; sourceTree = "<group>"; };
+		705A5EC2226669CB00B32EB5 /* wi-wind-beaufort-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-2.svg"; sourceTree = "<group>"; };
+		705A5EC3226669CB00B32EB5 /* wi-night-snow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-snow.svg"; sourceTree = "<group>"; };
+		705A5EC4226669CB00B32EB5 /* wi-day-rain-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-rain-wind.svg"; sourceTree = "<group>"; };
+		705A5EC5226669CB00B32EB5 /* wi-moon-alt-waning-crescent-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-crescent-2.svg"; sourceTree = "<group>"; };
+		705A5EC6226669CB00B32EB5 /* wi-night-alt-sleet-storm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-sleet-storm.svg"; sourceTree = "<group>"; };
+		705A5EC7226669CB00B32EB5 /* wi-flood.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-flood.svg"; sourceTree = "<group>"; };
+		705A5EC8226669CB00B32EB5 /* wi-moon-new.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-new.svg"; sourceTree = "<group>"; };
+		705A5EC9226669CB00B32EB5 /* wi-time-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-1.svg"; sourceTree = "<group>"; };
+		705A5ECA226669CB00B32EB5 /* wi-night-alt-snow-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-snow-wind.svg"; sourceTree = "<group>"; };
+		705A5ECB226669CB00B32EB5 /* wi-moon-waxing-crescent-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-crescent-1.svg"; sourceTree = "<group>"; };
+		705A5ECC226669CB00B32EB5 /* wi-sandstorm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-sandstorm.svg"; sourceTree = "<group>"; };
+		705A5ECD226669CB00B32EB5 /* wi-day-sleet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-sleet.svg"; sourceTree = "<group>"; };
+		705A5ECE226669CB00B32EB5 /* wi-wind-beaufort-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-4.svg"; sourceTree = "<group>"; };
+		705A5ECF226669CC00B32EB5 /* wi-thunderstorm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-thunderstorm.svg"; sourceTree = "<group>"; };
+		705A5ED0226669CC00B32EB5 /* wi-humidity.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-humidity.svg"; sourceTree = "<group>"; };
+		705A5ED1226669CC00B32EB5 /* wi-night-rain-mix.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-rain-mix.svg"; sourceTree = "<group>"; };
+		705A5ED2226669CC00B32EB5 /* wi-thermometer-internal.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-thermometer-internal.svg"; sourceTree = "<group>"; };
+		705A5ED3226669CC00B32EB5 /* wi-moon-alt-waning-crescent-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-crescent-5.svg"; sourceTree = "<group>"; };
+		705A5ED4226669CC00B32EB5 /* wi-moon-alt-waning-gibbous-6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-gibbous-6.svg"; sourceTree = "<group>"; };
+		705A5ED5226669CC00B32EB5 /* wi-night-alt-partly-cloudy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-partly-cloudy.svg"; sourceTree = "<group>"; };
+		705A5ED6226669CC00B32EB5 /* wi-day-windy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-windy.svg"; sourceTree = "<group>"; };
+		705A5ED7226669CC00B32EB5 /* wi-moon-alt-waxing-gibbous-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-gibbous-4.svg"; sourceTree = "<group>"; };
+		705A5ED8226669CC00B32EB5 /* wi-time-8.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-8.svg"; sourceTree = "<group>"; };
+		705A5ED9226669CC00B32EB5 /* wi-night-rain.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-rain.svg"; sourceTree = "<group>"; };
+		705A5EDA226669CC00B32EB5 /* wi-thermometer.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-thermometer.svg"; sourceTree = "<group>"; };
+		705A5EDB226669CC00B32EB5 /* wi-day-haze.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-haze.svg"; sourceTree = "<group>"; };
+		705A5EDC226669CC00B32EB5 /* wi-moon-alt-waxing-crescent-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-crescent-3.svg"; sourceTree = "<group>"; };
+		705A5EDD226669CD00B32EB5 /* wi-cloud-refresh.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-cloud-refresh.svg"; sourceTree = "<group>"; };
+		705A5EDE226669CD00B32EB5 /* wi-moon-alt-first-quarter.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-first-quarter.svg"; sourceTree = "<group>"; };
+		705A5EDF226669CD00B32EB5 /* wi-moon-waning-gibbous-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-gibbous-4.svg"; sourceTree = "<group>"; };
+		705A5EE0226669CD00B32EB5 /* wi-moon-alt-waning-crescent-6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-crescent-6.svg"; sourceTree = "<group>"; };
+		705A5EE1226669CD00B32EB5 /* wi-gale-warning.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-gale-warning.svg"; sourceTree = "<group>"; };
+		705A5EE2226669CD00B32EB5 /* wi-moon-waning-crescent-6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-crescent-6.svg"; sourceTree = "<group>"; };
+		705A5EE3226669CD00B32EB5 /* wi-night-alt-sleet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-sleet.svg"; sourceTree = "<group>"; };
+		705A5EE4226669CD00B32EB5 /* wi-volcano.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-volcano.svg"; sourceTree = "<group>"; };
+		705A5EE5226669CD00B32EB5 /* wi-day-snow-thunderstorm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-snow-thunderstorm.svg"; sourceTree = "<group>"; };
+		705A5EE6226669CD00B32EB5 /* wi-strong-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-strong-wind.svg"; sourceTree = "<group>"; };
+		705A5EE7226669CD00B32EB5 /* wi-day-thunderstorm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-thunderstorm.svg"; sourceTree = "<group>"; };
+		705A5EE8226669CD00B32EB5 /* wi-moon-waxing-gibbous-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-gibbous-3.svg"; sourceTree = "<group>"; };
+		705A5EE9226669CD00B32EB5 /* wi-moon-alt-waning-crescent-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-crescent-1.svg"; sourceTree = "<group>"; };
+		705A5EEA226669CE00B32EB5 /* wi-moon-alt-waning-gibbous-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-gibbous-3.svg"; sourceTree = "<group>"; };
+		705A5EEB226669CE00B32EB5 /* wi-raindrop.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-raindrop.svg"; sourceTree = "<group>"; };
+		705A5EEC226669CE00B32EB5 /* wi-cloud-up.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-cloud-up.svg"; sourceTree = "<group>"; };
+		705A5EED226669CE00B32EB5 /* wi-day-light-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-light-wind.svg"; sourceTree = "<group>"; };
+		705A5EEE226669CE00B32EB5 /* wi-night-alt-snow-thunderstorm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-snow-thunderstorm.svg"; sourceTree = "<group>"; };
+		705A5EEF226669CE00B32EB5 /* wi-day-fog.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-fog.svg"; sourceTree = "<group>"; };
+		705A5EF0226669CE00B32EB5 /* wi-night-alt-snow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-snow.svg"; sourceTree = "<group>"; };
+		705A5EF1226669CE00B32EB5 /* wi-moon-alt-full.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-full.svg"; sourceTree = "<group>"; };
+		705A5EF2226669CE00B32EB5 /* wi-moon-alt-third-quarter.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-third-quarter.svg"; sourceTree = "<group>"; };
+		705A5EF3226669CE00B32EB5 /* wi-night-snow-thunderstorm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-snow-thunderstorm.svg"; sourceTree = "<group>"; };
+		705A5EF4226669CE00B32EB5 /* wi-day-hail.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-hail.svg"; sourceTree = "<group>"; };
+		705A5EF5226669CE00B32EB5 /* wi-smoke.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-smoke.svg"; sourceTree = "<group>"; };
+		705A5EF6226669CE00B32EB5 /* wi-tornado.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-tornado.svg"; sourceTree = "<group>"; };
+		705A5EF7226669CF00B32EB5 /* wi-moon-alt-waxing-crescent-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-crescent-4.svg"; sourceTree = "<group>"; };
+		705A5EF8226669CF00B32EB5 /* wi-night-alt-cloudy-windy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-cloudy-windy.svg"; sourceTree = "<group>"; };
+		705A5EF9226669CF00B32EB5 /* wi-day-cloudy-gusts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-cloudy-gusts.svg"; sourceTree = "<group>"; };
+		705A5EFA226669CF00B32EB5 /* wi-night-cloudy-high.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-cloudy-high.svg"; sourceTree = "<group>"; };
+		705A5EFB226669CF00B32EB5 /* wi-storm-showers.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-storm-showers.svg"; sourceTree = "<group>"; };
+		705A5EFC226669CF00B32EB5 /* wi-moon-waning-gibbous-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-gibbous-1.svg"; sourceTree = "<group>"; };
+		705A5EFD226669CF00B32EB5 /* wi-showers.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-showers.svg"; sourceTree = "<group>"; };
+		705A5EFE226669CF00B32EB5 /* wi-night-storm-showers.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-storm-showers.svg"; sourceTree = "<group>"; };
+		705A5EFF226669CF00B32EB5 /* wi-fahrenheit.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-fahrenheit.svg"; sourceTree = "<group>"; };
+		705A5F00226669CF00B32EB5 /* wi-refresh-alt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-refresh-alt.svg"; sourceTree = "<group>"; };
+		705A5F01226669CF00B32EB5 /* wi-moon-alt-waxing-crescent-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-crescent-1.svg"; sourceTree = "<group>"; };
+		705A5F02226669CF00B32EB5 /* wi-moon-waxing-gibbous-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-gibbous-2.svg"; sourceTree = "<group>"; };
+		705A5F03226669D000B32EB5 /* wi-time-6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-6.svg"; sourceTree = "<group>"; };
+		705A5F04226669D000B32EB5 /* wi-moon-alt-waxing-gibbous-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-gibbous-5.svg"; sourceTree = "<group>"; };
+		705A5F05226669D000B32EB5 /* wi-fog.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-fog.svg"; sourceTree = "<group>"; };
+		705A5F06226669D000B32EB5 /* wi-raindrops.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-raindrops.svg"; sourceTree = "<group>"; };
+		705A5F07226669D000B32EB5 /* wi-wind-beaufort-6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-6.svg"; sourceTree = "<group>"; };
+		705A5F08226669D000B32EB5 /* wi-moon-waning-crescent-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-crescent-2.svg"; sourceTree = "<group>"; };
+		705A5F09226669D000B32EB5 /* wi-small-craft-advisory.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-small-craft-advisory.svg"; sourceTree = "<group>"; };
+		705A5F0A226669D000B32EB5 /* wi-time-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-3.svg"; sourceTree = "<group>"; };
+		705A5F0B226669D000B32EB5 /* wi-smog.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-smog.svg"; sourceTree = "<group>"; };
+		705A5F0C226669D000B32EB5 /* wi-moon-first-quarter.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-first-quarter.svg"; sourceTree = "<group>"; };
+		705A5F0D226669D000B32EB5 /* wi-direction-right.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-direction-right.svg"; sourceTree = "<group>"; };
+		705A5F0E226669D000B32EB5 /* wi-sunset.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-sunset.svg"; sourceTree = "<group>"; };
+		705A5F0F226669D100B32EB5 /* wi-moon-waning-crescent-4 .svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-crescent-4 .svg"; sourceTree = "<group>"; };
+		705A5F10226669D100B32EB5 /* wi-day-rain-mix.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-rain-mix.svg"; sourceTree = "<group>"; };
+		705A5F11226669D100B32EB5 /* wi-horizon-alt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-horizon-alt.svg"; sourceTree = "<group>"; };
+		705A5F12226669D100B32EB5 /* wi-cloudy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-cloudy.svg"; sourceTree = "<group>"; };
+		705A5F13226669D200B32EB5 /* wi-day-sleet-storm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-sleet-storm.svg"; sourceTree = "<group>"; };
+		705A5F14226669D200B32EB5 /* wi-night-alt-rain-mix.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-rain-mix.svg"; sourceTree = "<group>"; };
+		705A5F15226669D200B32EB5 /* wi-tsunami.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-tsunami.svg"; sourceTree = "<group>"; };
+		705A5F16226669D200B32EB5 /* wi-moon-waxing-crescent-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-crescent-4.svg"; sourceTree = "<group>"; };
+		705A5F17226669D200B32EB5 /* wi-night-snow-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-snow-wind.svg"; sourceTree = "<group>"; };
+		705A5F18226669D200B32EB5 /* wi-day-storm-showers.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-storm-showers.svg"; sourceTree = "<group>"; };
+		705A5F19226669D200B32EB5 /* wi-hot.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-hot.svg"; sourceTree = "<group>"; };
+		705A5F1A226669D200B32EB5 /* wi-horizon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-horizon.svg"; sourceTree = "<group>"; };
+		705A5F1B226669D200B32EB5 /* wi-celsius.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-celsius.svg"; sourceTree = "<group>"; };
+		705A5F1C226669D300B32EB5 /* wi-day-sprinkle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-sprinkle.svg"; sourceTree = "<group>"; };
+		705A5F1D226669D300B32EB5 /* wi-moon-alt-new.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-new.svg"; sourceTree = "<group>"; };
+		705A5F1E226669D300B32EB5 /* wi-alien.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-alien.svg"; sourceTree = "<group>"; };
+		705A5F1F226669D300B32EB5 /* wi-lightning.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-lightning.svg"; sourceTree = "<group>"; };
+		705A5F20226669D300B32EB5 /* wi-moon-waning-gibbous-6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-gibbous-6.svg"; sourceTree = "<group>"; };
+		705A5F21226669D300B32EB5 /* wi-dust.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-dust.svg"; sourceTree = "<group>"; };
+		705A5F22226669D300B32EB5 /* wi-direction-up.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-direction-up.svg"; sourceTree = "<group>"; };
+		705A5F23226669D300B32EB5 /* wi-moon-third-quarter.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-third-quarter.svg"; sourceTree = "<group>"; };
+		705A5F24226669D300B32EB5 /* wi-degrees.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-degrees.svg"; sourceTree = "<group>"; };
+		705A5F25226669D300B32EB5 /* wi-wind-beaufort-11.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-11.svg"; sourceTree = "<group>"; };
+		705A5F26226669D300B32EB5 /* wi-meteor.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-meteor.svg"; sourceTree = "<group>"; };
+		705A5F27226669D400B32EB5 /* wi-moon-alt-waning-gibbous-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-gibbous-5.svg"; sourceTree = "<group>"; };
+		705A5F28226669D400B32EB5 /* wi-night-sleet-storm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-sleet-storm.svg"; sourceTree = "<group>"; };
+		705A5F29226669D400B32EB5 /* wi-night-sprinkle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-sprinkle.svg"; sourceTree = "<group>"; };
+		705A5F2A226669D400B32EB5 /* wi-night-alt-hail.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-hail.svg"; sourceTree = "<group>"; };
+		705A5F2B226669D400B32EB5 /* wi-time-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-10.svg"; sourceTree = "<group>"; };
+		705A5F2C226669D400B32EB5 /* wi-wind-beaufort-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-1.svg"; sourceTree = "<group>"; };
+		705A5F2D226669D400B32EB5 /* wi-direction-down.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-direction-down.svg"; sourceTree = "<group>"; };
+		705A5F2E226669D400B32EB5 /* wi-moon-waxing-crescent-6 .svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-crescent-6 .svg"; sourceTree = "<group>"; };
+		705A5F2F226669D400B32EB5 /* wi-time-11.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-11.svg"; sourceTree = "<group>"; };
+		705A5F30226669D400B32EB5 /* wi-night-hail.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-hail.svg"; sourceTree = "<group>"; };
+		705A5F31226669D500B32EB5 /* wi-moon-alt-waning-gibbous-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-gibbous-2.svg"; sourceTree = "<group>"; };
+		705A5F32226669D500B32EB5 /* wi-lunar-eclipse.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-lunar-eclipse.svg"; sourceTree = "<group>"; };
+		705A5F33226669D500B32EB5 /* wi-solar-eclipse.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-solar-eclipse.svg"; sourceTree = "<group>"; };
+		705A5F34226669D500B32EB5 /* wi-moon-waxing-crescent-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-crescent-2.svg"; sourceTree = "<group>"; };
+		705A5F35226669D500B32EB5 /* wi-time-7.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-7.svg"; sourceTree = "<group>"; };
+		705A5F36226669D500B32EB5 /* wi-time-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-5.svg"; sourceTree = "<group>"; };
+		705A5F37226669D500B32EB5 /* wi-rain-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-rain-wind.svg"; sourceTree = "<group>"; };
+		705A5F38226669D500B32EB5 /* wi-rain-mix.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-rain-mix.svg"; sourceTree = "<group>"; };
+		705A5F39226669D600B32EB5 /* wi-moon-waxing-crescent-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-crescent-5.svg"; sourceTree = "<group>"; };
+		705A5F3A226669D600B32EB5 /* wi-snow-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-snow-wind.svg"; sourceTree = "<group>"; };
+		705A5F3B226669D600B32EB5 /* wi-night-alt-cloudy-high.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-cloudy-high.svg"; sourceTree = "<group>"; };
+		705A5F3C226669D600B32EB5 /* wi-direction-left.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-direction-left.svg"; sourceTree = "<group>"; };
+		705A5F3D226669D700B32EB5 /* wi-moon-waxing-gibbous-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-gibbous-1.svg"; sourceTree = "<group>"; };
+		705A5F3E226669D700B32EB5 /* wi-time-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-2.svg"; sourceTree = "<group>"; };
+		705A5F3F226669D700B32EB5 /* wi-wind-beaufort-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-5.svg"; sourceTree = "<group>"; };
+		705A5F40226669D800B32EB5 /* wi-moon-waning-crescent-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-crescent-5.svg"; sourceTree = "<group>"; };
+		705A5F41226669D800B32EB5 /* wi-wind-beaufort-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-3.svg"; sourceTree = "<group>"; };
+		705A5F42226669D800B32EB5 /* wi-moon-waning-gibbous-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-gibbous-2.svg"; sourceTree = "<group>"; };
+		705A5F43226669D800B32EB5 /* wi-day-snow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-snow.svg"; sourceTree = "<group>"; };
+		705A5F44226669D800B32EB5 /* wi-wind-beaufort-8.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-8.svg"; sourceTree = "<group>"; };
+		705A5F45226669D900B32EB5 /* wi-moon-waning-gibbous-5 .svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waning-gibbous-5 .svg"; sourceTree = "<group>"; };
+		705A5F46226669D900B32EB5 /* wi-night-thunderstorm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-thunderstorm.svg"; sourceTree = "<group>"; };
+		705A5F47226669D900B32EB5 /* wi-refresh.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-refresh.svg"; sourceTree = "<group>"; };
+		705A5F48226669D900B32EB5 /* wi-night-fog.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-fog.svg"; sourceTree = "<group>"; };
+		705A5F49226669DA00B32EB5 /* wi-time-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-time-4.svg"; sourceTree = "<group>"; };
+		705A5F4A226669DA00B32EB5 /* wi-night-alt-cloudy-gusts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-cloudy-gusts.svg"; sourceTree = "<group>"; };
+		705A5F4B226669DA00B32EB5 /* wi-cloud.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-cloud.svg"; sourceTree = "<group>"; };
+		705A5F4C226669DA00B32EB5 /* wi-moon-alt-waning-gibbous-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-gibbous-1.svg"; sourceTree = "<group>"; };
+		705A5F4D226669DA00B32EB5 /* wi-night-alt-showers.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-showers.svg"; sourceTree = "<group>"; };
+		705A5F4E226669DB00B32EB5 /* wi-day-rain.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-rain.svg"; sourceTree = "<group>"; };
+		705A5F4F226669DB00B32EB5 /* wi-day-sunny.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-sunny.svg"; sourceTree = "<group>"; };
+		705A5F50226669DB00B32EB5 /* wi-hurricane-warning.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-hurricane-warning.svg"; sourceTree = "<group>"; };
+		705A5F51226669DB00B32EB5 /* wi-direction-down-right.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-direction-down-right.svg"; sourceTree = "<group>"; };
+		705A5F52226669DB00B32EB5 /* wi-day-cloudy-windy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-cloudy-windy.svg"; sourceTree = "<group>"; };
+		705A5F53226669DB00B32EB5 /* wi-sunrise.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-sunrise.svg"; sourceTree = "<group>"; };
+		705A5F54226669DC00B32EB5 /* wi-hail.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-hail.svg"; sourceTree = "<group>"; };
+		705A5F55226669DC00B32EB5 /* wi-night-rain-wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-rain-wind.svg"; sourceTree = "<group>"; };
+		705A5F56226669DC00B32EB5 /* wi-day-showers.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-showers.svg"; sourceTree = "<group>"; };
+		705A5F57226669DC00B32EB5 /* wi-moon-alt-waning-gibbous-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-gibbous-4.svg"; sourceTree = "<group>"; };
+		705A5F58226669DC00B32EB5 /* wi-stars.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-stars.svg"; sourceTree = "<group>"; };
+		705A5F59226669DC00B32EB5 /* wi-storm-warning.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-storm-warning.svg"; sourceTree = "<group>"; };
+		705A5F5A226669DD00B32EB5 /* wi-sprinkle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-sprinkle.svg"; sourceTree = "<group>"; };
+		705A5F5B226669DD00B32EB5 /* wi-night-cloudy-gusts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-cloudy-gusts.svg"; sourceTree = "<group>"; };
+		705A5F5C226669DD00B32EB5 /* wi-earthquake.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-earthquake.svg"; sourceTree = "<group>"; };
+		705A5F5D226669DD00B32EB5 /* wi-day-cloudy-high.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-cloudy-high.svg"; sourceTree = "<group>"; };
+		705A5F5E226669DD00B32EB5 /* wi-night-alt-sprinkle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-sprinkle.svg"; sourceTree = "<group>"; };
+		705A5F5F226669DD00B32EB5 /* wi-night-alt-storm-showers.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-storm-showers.svg"; sourceTree = "<group>"; };
+		705A5F60226669DD00B32EB5 /* wi-moon-alt-waning-crescent-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waning-crescent-3.svg"; sourceTree = "<group>"; };
+		705A5F61226669DD00B32EB5 /* wi-night-alt-thunderstorm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-thunderstorm.svg"; sourceTree = "<group>"; };
+		705A5F62226669DE00B32EB5 /* wi-day-sunny-overcast.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-day-sunny-overcast.svg"; sourceTree = "<group>"; };
+		705A5F63226669DE00B32EB5 /* wi-night-alt-cloudy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-cloudy.svg"; sourceTree = "<group>"; };
+		705A5F64226669DE00B32EB5 /* wi-umbrella.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-umbrella.svg"; sourceTree = "<group>"; };
+		705A5F65226669DE00B32EB5 /* wi-barometer.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-barometer.svg"; sourceTree = "<group>"; };
+		705A5F66226669DE00B32EB5 /* wi-moon-alt-waxing-gibbous-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-alt-waxing-gibbous-2.svg"; sourceTree = "<group>"; };
+		705A5F67226669DE00B32EB5 /* wi-sleet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-sleet.svg"; sourceTree = "<group>"; };
+		705A5F68226669DF00B32EB5 /* wi-moonset.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moonset.svg"; sourceTree = "<group>"; };
+		705A5F69226669DF00B32EB5 /* wi-night-alt-lightning.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-night-alt-lightning.svg"; sourceTree = "<group>"; };
+		705A5F6A226669DF00B32EB5 /* wi-wind-beaufort-9.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-wind-beaufort-9.svg"; sourceTree = "<group>"; };
+		705A5F6B226669DF00B32EB5 /* wi-direction-down-left.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-direction-down-left.svg"; sourceTree = "<group>"; };
+		705A5F6C226669E000B32EB5 /* wi-moon-waxing-gibbous-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wi-moon-waxing-gibbous-5.svg"; sourceTree = "<group>"; };
 		70BA277522649CE70078218E /* TheWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BA277822649CE70078218E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70BA277F22649CE90078218E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +540,232 @@
 			path = WeatherCell;
 			sourceTree = "<group>";
 		};
+		705A5E91226669AD00B32EB5 /* WeatherIcons */ = {
+			isa = PBXGroup;
+			children = (
+				705A5F1E226669D300B32EB5 /* wi-alien.svg */,
+				705A5F65226669DE00B32EB5 /* wi-barometer.svg */,
+				705A5F1B226669D200B32EB5 /* wi-celsius.svg */,
+				705A5EBE226669CA00B32EB5 /* wi-cloud-down.svg */,
+				705A5EDD226669CD00B32EB5 /* wi-cloud-refresh.svg */,
+				705A5EEC226669CE00B32EB5 /* wi-cloud-up.svg */,
+				705A5F4B226669DA00B32EB5 /* wi-cloud.svg */,
+				705A5EA5226669C800B32EB5 /* wi-cloudy-gusts.svg */,
+				705A5EB1226669C900B32EB5 /* wi-cloudy-windy.svg */,
+				705A5F12226669D100B32EB5 /* wi-cloudy.svg */,
+				705A5EF9226669CF00B32EB5 /* wi-day-cloudy-gusts.svg */,
+				705A5F5D226669DD00B32EB5 /* wi-day-cloudy-high.svg */,
+				705A5F52226669DB00B32EB5 /* wi-day-cloudy-windy.svg */,
+				705A5E9A226669C700B32EB5 /* wi-day-cloudy.svg */,
+				705A5EEF226669CE00B32EB5 /* wi-day-fog.svg */,
+				705A5EF4226669CE00B32EB5 /* wi-day-hail.svg */,
+				705A5EDB226669CC00B32EB5 /* wi-day-haze.svg */,
+				705A5EED226669CE00B32EB5 /* wi-day-light-wind.svg */,
+				705A5EAF226669C900B32EB5 /* wi-day-lightning.svg */,
+				705A5F10226669D100B32EB5 /* wi-day-rain-mix.svg */,
+				705A5EC4226669CB00B32EB5 /* wi-day-rain-wind.svg */,
+				705A5F4E226669DB00B32EB5 /* wi-day-rain.svg */,
+				705A5F56226669DC00B32EB5 /* wi-day-showers.svg */,
+				705A5F13226669D200B32EB5 /* wi-day-sleet-storm.svg */,
+				705A5ECD226669CB00B32EB5 /* wi-day-sleet.svg */,
+				705A5EE5226669CD00B32EB5 /* wi-day-snow-thunderstorm.svg */,
+				705A5EA0226669C800B32EB5 /* wi-day-snow-wind.svg */,
+				705A5F43226669D800B32EB5 /* wi-day-snow.svg */,
+				705A5F1C226669D300B32EB5 /* wi-day-sprinkle.svg */,
+				705A5F18226669D200B32EB5 /* wi-day-storm-showers.svg */,
+				705A5F62226669DE00B32EB5 /* wi-day-sunny-overcast.svg */,
+				705A5F4F226669DB00B32EB5 /* wi-day-sunny.svg */,
+				705A5EE7226669CD00B32EB5 /* wi-day-thunderstorm.svg */,
+				705A5ED6226669CC00B32EB5 /* wi-day-windy.svg */,
+				705A5F24226669D300B32EB5 /* wi-degrees.svg */,
+				705A5F6B226669DF00B32EB5 /* wi-direction-down-left.svg */,
+				705A5F51226669DB00B32EB5 /* wi-direction-down-right.svg */,
+				705A5F2D226669D400B32EB5 /* wi-direction-down.svg */,
+				705A5F3C226669D600B32EB5 /* wi-direction-left.svg */,
+				705A5F0D226669D000B32EB5 /* wi-direction-right.svg */,
+				705A5EB4226669C900B32EB5 /* wi-direction-up-left.svg */,
+				705A5E9C226669C700B32EB5 /* wi-direction-up-right.svg */,
+				705A5F22226669D300B32EB5 /* wi-direction-up.svg */,
+				705A5F21226669D300B32EB5 /* wi-dust.svg */,
+				705A5F5C226669DD00B32EB5 /* wi-earthquake.svg */,
+				705A5EFF226669CF00B32EB5 /* wi-fahrenheit.svg */,
+				705A5EA8226669C800B32EB5 /* wi-fire.svg */,
+				705A5EC7226669CB00B32EB5 /* wi-flood.svg */,
+				705A5F05226669D000B32EB5 /* wi-fog.svg */,
+				705A5EE1226669CD00B32EB5 /* wi-gale-warning.svg */,
+				705A5F54226669DC00B32EB5 /* wi-hail.svg */,
+				705A5F11226669D100B32EB5 /* wi-horizon-alt.svg */,
+				705A5F1A226669D200B32EB5 /* wi-horizon.svg */,
+				705A5F19226669D200B32EB5 /* wi-hot.svg */,
+				705A5ED0226669CC00B32EB5 /* wi-humidity.svg */,
+				705A5F50226669DB00B32EB5 /* wi-hurricane-warning.svg */,
+				705A5EAE226669C900B32EB5 /* wi-hurricane.svg */,
+				705A5F1F226669D300B32EB5 /* wi-lightning.svg */,
+				705A5F32226669D500B32EB5 /* wi-lunar-eclipse.svg */,
+				705A5F26226669D300B32EB5 /* wi-meteor.svg */,
+				705A5EDE226669CD00B32EB5 /* wi-moon-alt-first-quarter.svg */,
+				705A5EF1226669CE00B32EB5 /* wi-moon-alt-full.svg */,
+				705A5F1D226669D300B32EB5 /* wi-moon-alt-new.svg */,
+				705A5EF2226669CE00B32EB5 /* wi-moon-alt-third-quarter.svg */,
+				705A5EE9226669CD00B32EB5 /* wi-moon-alt-waning-crescent-1.svg */,
+				705A5EC5226669CB00B32EB5 /* wi-moon-alt-waning-crescent-2.svg */,
+				705A5F60226669DD00B32EB5 /* wi-moon-alt-waning-crescent-3.svg */,
+				705A5EC0226669CA00B32EB5 /* wi-moon-alt-waning-crescent-4.svg */,
+				705A5ED3226669CC00B32EB5 /* wi-moon-alt-waning-crescent-5.svg */,
+				705A5EE0226669CD00B32EB5 /* wi-moon-alt-waning-crescent-6.svg */,
+				705A5F4C226669DA00B32EB5 /* wi-moon-alt-waning-gibbous-1.svg */,
+				705A5F31226669D500B32EB5 /* wi-moon-alt-waning-gibbous-2.svg */,
+				705A5EEA226669CE00B32EB5 /* wi-moon-alt-waning-gibbous-3.svg */,
+				705A5F57226669DC00B32EB5 /* wi-moon-alt-waning-gibbous-4.svg */,
+				705A5F27226669D400B32EB5 /* wi-moon-alt-waning-gibbous-5.svg */,
+				705A5ED4226669CC00B32EB5 /* wi-moon-alt-waning-gibbous-6.svg */,
+				705A5F01226669CF00B32EB5 /* wi-moon-alt-waxing-crescent-1.svg */,
+				705A5EA6226669C800B32EB5 /* wi-moon-alt-waxing-crescent-2.svg */,
+				705A5EDC226669CC00B32EB5 /* wi-moon-alt-waxing-crescent-3.svg */,
+				705A5EF7226669CF00B32EB5 /* wi-moon-alt-waxing-crescent-4.svg */,
+				705A5EAB226669C900B32EB5 /* wi-moon-alt-waxing-crescent-5.svg */,
+				705A5E9B226669C700B32EB5 /* wi-moon-alt-waxing-crescent-6 .svg */,
+				705A5EB8226669CA00B32EB5 /* wi-moon-alt-waxing-gibbous-1.svg */,
+				705A5F66226669DE00B32EB5 /* wi-moon-alt-waxing-gibbous-2.svg */,
+				705A5E99226669C700B32EB5 /* wi-moon-alt-waxing-gibbous-3.svg */,
+				705A5ED7226669CC00B32EB5 /* wi-moon-alt-waxing-gibbous-4.svg */,
+				705A5F04226669D000B32EB5 /* wi-moon-alt-waxing-gibbous-5.svg */,
+				705A5EB3226669C900B32EB5 /* wi-moon-alt-waxing-gibbous-6 .svg */,
+				705A5F0C226669D000B32EB5 /* wi-moon-first-quarter.svg */,
+				705A5E9D226669C700B32EB5 /* wi-moon-full.svg */,
+				705A5EC8226669CB00B32EB5 /* wi-moon-new.svg */,
+				705A5F23226669D300B32EB5 /* wi-moon-third-quarter.svg */,
+				705A5EA1226669C800B32EB5 /* wi-moon-waning-crescent-1.svg */,
+				705A5F08226669D000B32EB5 /* wi-moon-waning-crescent-2.svg */,
+				705A5EAA226669C800B32EB5 /* wi-moon-waning-crescent-3.svg */,
+				705A5F0F226669D100B32EB5 /* wi-moon-waning-crescent-4 .svg */,
+				705A5F40226669D800B32EB5 /* wi-moon-waning-crescent-5.svg */,
+				705A5EE2226669CD00B32EB5 /* wi-moon-waning-crescent-6.svg */,
+				705A5EFC226669CF00B32EB5 /* wi-moon-waning-gibbous-1.svg */,
+				705A5F42226669D800B32EB5 /* wi-moon-waning-gibbous-2.svg */,
+				705A5E96226669C700B32EB5 /* wi-moon-waning-gibbous-3.svg */,
+				705A5EDF226669CD00B32EB5 /* wi-moon-waning-gibbous-4.svg */,
+				705A5F45226669D900B32EB5 /* wi-moon-waning-gibbous-5 .svg */,
+				705A5F20226669D300B32EB5 /* wi-moon-waning-gibbous-6.svg */,
+				705A5ECB226669CB00B32EB5 /* wi-moon-waxing-crescent-1.svg */,
+				705A5F34226669D500B32EB5 /* wi-moon-waxing-crescent-2.svg */,
+				705A5EA4226669C800B32EB5 /* wi-moon-waxing-crescent-3.svg */,
+				705A5F16226669D200B32EB5 /* wi-moon-waxing-crescent-4.svg */,
+				705A5F39226669D600B32EB5 /* wi-moon-waxing-crescent-5.svg */,
+				705A5F2E226669D400B32EB5 /* wi-moon-waxing-crescent-6 .svg */,
+				705A5F3D226669D700B32EB5 /* wi-moon-waxing-gibbous-1.svg */,
+				705A5F02226669CF00B32EB5 /* wi-moon-waxing-gibbous-2.svg */,
+				705A5EE8226669CD00B32EB5 /* wi-moon-waxing-gibbous-3.svg */,
+				705A5EC1226669CB00B32EB5 /* wi-moon-waxing-gibbous-4 .svg */,
+				705A5F6C226669E000B32EB5 /* wi-moon-waxing-gibbous-5.svg */,
+				705A5EAC226669C900B32EB5 /* wi-moon-waxing-gibbous-6.svg */,
+				705A5E94226669C700B32EB5 /* wi-moonrise.svg */,
+				705A5F68226669DF00B32EB5 /* wi-moonset.svg */,
+				705A5E9F226669C800B32EB5 /* wi-na.svg */,
+				705A5F4A226669DA00B32EB5 /* wi-night-alt-cloudy-gusts.svg */,
+				705A5F3B226669D600B32EB5 /* wi-night-alt-cloudy-high.svg */,
+				705A5EF8226669CF00B32EB5 /* wi-night-alt-cloudy-windy.svg */,
+				705A5F63226669DE00B32EB5 /* wi-night-alt-cloudy.svg */,
+				705A5F2A226669D400B32EB5 /* wi-night-alt-hail.svg */,
+				705A5F69226669DF00B32EB5 /* wi-night-alt-lightning.svg */,
+				705A5ED5226669CC00B32EB5 /* wi-night-alt-partly-cloudy.svg */,
+				705A5F14226669D200B32EB5 /* wi-night-alt-rain-mix.svg */,
+				705A5EBB226669CA00B32EB5 /* wi-night-alt-rain-wind.svg */,
+				705A5EB9226669CA00B32EB5 /* wi-night-alt-rain.svg */,
+				705A5F4D226669DA00B32EB5 /* wi-night-alt-showers.svg */,
+				705A5EC6226669CB00B32EB5 /* wi-night-alt-sleet-storm.svg */,
+				705A5EE3226669CD00B32EB5 /* wi-night-alt-sleet.svg */,
+				705A5EEE226669CE00B32EB5 /* wi-night-alt-snow-thunderstorm.svg */,
+				705A5ECA226669CB00B32EB5 /* wi-night-alt-snow-wind.svg */,
+				705A5EF0226669CE00B32EB5 /* wi-night-alt-snow.svg */,
+				705A5F5E226669DD00B32EB5 /* wi-night-alt-sprinkle.svg */,
+				705A5F5F226669DD00B32EB5 /* wi-night-alt-storm-showers.svg */,
+				705A5F61226669DD00B32EB5 /* wi-night-alt-thunderstorm.svg */,
+				705A5EB0226669C900B32EB5 /* wi-night-clear.svg */,
+				705A5F5B226669DD00B32EB5 /* wi-night-cloudy-gusts.svg */,
+				705A5EFA226669CF00B32EB5 /* wi-night-cloudy-high.svg */,
+				705A5E93226669C700B32EB5 /* wi-night-cloudy-windy.svg */,
+				705A5EBA226669CA00B32EB5 /* wi-night-cloudy.svg */,
+				705A5F48226669D900B32EB5 /* wi-night-fog.svg */,
+				705A5F30226669D400B32EB5 /* wi-night-hail.svg */,
+				705A5EB5226669C900B32EB5 /* wi-night-lightning.svg */,
+				705A5E98226669C700B32EB5 /* wi-night-partly-cloudy.svg */,
+				705A5ED1226669CC00B32EB5 /* wi-night-rain-mix.svg */,
+				705A5F55226669DC00B32EB5 /* wi-night-rain-wind.svg */,
+				705A5ED9226669CC00B32EB5 /* wi-night-rain.svg */,
+				705A5EBF226669CA00B32EB5 /* wi-night-showers.svg */,
+				705A5F28226669D400B32EB5 /* wi-night-sleet-storm.svg */,
+				705A5E92226669C700B32EB5 /* wi-night-sleet.svg */,
+				705A5EF3226669CE00B32EB5 /* wi-night-snow-thunderstorm.svg */,
+				705A5F17226669D200B32EB5 /* wi-night-snow-wind.svg */,
+				705A5EC3226669CB00B32EB5 /* wi-night-snow.svg */,
+				705A5F29226669D400B32EB5 /* wi-night-sprinkle.svg */,
+				705A5EFE226669CF00B32EB5 /* wi-night-storm-showers.svg */,
+				705A5F46226669D900B32EB5 /* wi-night-thunderstorm.svg */,
+				705A5F38226669D500B32EB5 /* wi-rain-mix.svg */,
+				705A5F37226669D500B32EB5 /* wi-rain-wind.svg */,
+				705A5EB7226669CA00B32EB5 /* wi-rain.svg */,
+				705A5EEB226669CE00B32EB5 /* wi-raindrop.svg */,
+				705A5F06226669D000B32EB5 /* wi-raindrops.svg */,
+				705A5F00226669CF00B32EB5 /* wi-refresh-alt.svg */,
+				705A5F47226669D900B32EB5 /* wi-refresh.svg */,
+				705A5ECC226669CB00B32EB5 /* wi-sandstorm.svg */,
+				705A5EFD226669CF00B32EB5 /* wi-showers.svg */,
+				705A5F67226669DE00B32EB5 /* wi-sleet.svg */,
+				705A5F09226669D000B32EB5 /* wi-small-craft-advisory.svg */,
+				705A5F0B226669D000B32EB5 /* wi-smog.svg */,
+				705A5EF5226669CE00B32EB5 /* wi-smoke.svg */,
+				705A5F3A226669D600B32EB5 /* wi-snow-wind.svg */,
+				705A5EAD226669C900B32EB5 /* wi-snow.svg */,
+				705A5E97226669C700B32EB5 /* wi-snowflake-cold.svg */,
+				705A5F33226669D500B32EB5 /* wi-solar-eclipse.svg */,
+				705A5F5A226669DD00B32EB5 /* wi-sprinkle.svg */,
+				705A5F58226669DC00B32EB5 /* wi-stars.svg */,
+				705A5EFB226669CF00B32EB5 /* wi-storm-showers.svg */,
+				705A5F59226669DC00B32EB5 /* wi-storm-warning.svg */,
+				705A5EE6226669CD00B32EB5 /* wi-strong-wind.svg */,
+				705A5F53226669DB00B32EB5 /* wi-sunrise.svg */,
+				705A5F0E226669D000B32EB5 /* wi-sunset.svg */,
+				705A5EB2226669C900B32EB5 /* wi-thermometer-exterior.svg */,
+				705A5ED2226669CC00B32EB5 /* wi-thermometer-internal.svg */,
+				705A5EDA226669CC00B32EB5 /* wi-thermometer.svg */,
+				705A5ECF226669CC00B32EB5 /* wi-thunderstorm.svg */,
+				705A5EC9226669CB00B32EB5 /* wi-time-1.svg */,
+				705A5F3E226669D700B32EB5 /* wi-time-2.svg */,
+				705A5F0A226669D000B32EB5 /* wi-time-3.svg */,
+				705A5F49226669DA00B32EB5 /* wi-time-4.svg */,
+				705A5F36226669D500B32EB5 /* wi-time-5.svg */,
+				705A5F03226669D000B32EB5 /* wi-time-6.svg */,
+				705A5F35226669D500B32EB5 /* wi-time-7.svg */,
+				705A5ED8226669CC00B32EB5 /* wi-time-8.svg */,
+				705A5EBC226669CA00B32EB5 /* wi-time-9.svg */,
+				705A5F2B226669D400B32EB5 /* wi-time-10.svg */,
+				705A5F2F226669D400B32EB5 /* wi-time-11.svg */,
+				705A5EA7226669C800B32EB5 /* wi-time-12.svg */,
+				705A5EF6226669CE00B32EB5 /* wi-tornado.svg */,
+				705A5EBD226669CA00B32EB5 /* wi-train.svg */,
+				705A5F15226669D200B32EB5 /* wi-tsunami.svg */,
+				705A5F64226669DE00B32EB5 /* wi-umbrella.svg */,
+				705A5EE4226669CD00B32EB5 /* wi-volcano.svg */,
+				705A5E9E226669C700B32EB5 /* wi-wind-beaufort-0.svg */,
+				705A5F2C226669D400B32EB5 /* wi-wind-beaufort-1.svg */,
+				705A5EC2226669CB00B32EB5 /* wi-wind-beaufort-2.svg */,
+				705A5F41226669D800B32EB5 /* wi-wind-beaufort-3.svg */,
+				705A5ECE226669CB00B32EB5 /* wi-wind-beaufort-4.svg */,
+				705A5F3F226669D700B32EB5 /* wi-wind-beaufort-5.svg */,
+				705A5F07226669D000B32EB5 /* wi-wind-beaufort-6.svg */,
+				705A5EA9226669C800B32EB5 /* wi-wind-beaufort-7.svg */,
+				705A5F44226669D800B32EB5 /* wi-wind-beaufort-8.svg */,
+				705A5F6A226669DF00B32EB5 /* wi-wind-beaufort-9.svg */,
+				705A5EA2226669C800B32EB5 /* wi-wind-beaufort-10.svg */,
+				705A5F25226669D300B32EB5 /* wi-wind-beaufort-11.svg */,
+				705A5EA3226669C800B32EB5 /* wi-wind-beaufort-12.svg */,
+				705A5E95226669C700B32EB5 /* wi-wind-deg.svg */,
+				705A5EB6226669CA00B32EB5 /* wi-windy.svg */,
+			);
+			path = WeatherIcons;
+			sourceTree = "<group>";
+		};
 		70A7584A2264ED6300114910 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +815,7 @@
 		70A7584F2264ED8D00114910 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				705A5E91226669AD00B32EB5 /* WeatherIcons */,
 				705A5E7F2264F70200B32EB5 /* Cities.json */,
 				70BA277F22649CE90078218E /* Assets.xcassets */,
 			);
@@ -250,10 +915,229 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705A5F92226669E000B32EB5 /* wi-rain.svg in Resources */,
+				705A5FE0226669E000B32EB5 /* wi-fog.svg in Resources */,
+				705A601A226669E100B32EB5 /* wi-wind-beaufort-5.svg in Resources */,
+				705A5F87226669E000B32EB5 /* wi-moon-waxing-gibbous-6.svg in Resources */,
+				705A5F9F226669E000B32EB5 /* wi-day-rain-wind.svg in Resources */,
+				705A5FE1226669E000B32EB5 /* wi-raindrops.svg in Resources */,
+				705A601B226669E100B32EB5 /* wi-moon-waning-crescent-5.svg in Resources */,
+				705A602C226669E100B32EB5 /* wi-direction-down-right.svg in Resources */,
+				705A5F82226669E000B32EB5 /* wi-time-12.svg in Resources */,
+				705A5FD4226669E000B32EB5 /* wi-day-cloudy-gusts.svg in Resources */,
+				705A5F76226669E000B32EB5 /* wi-moon-alt-waxing-crescent-6 .svg in Resources */,
+				705A5FEB226669E000B32EB5 /* wi-day-rain-mix.svg in Resources */,
+				705A6005226669E100B32EB5 /* wi-night-alt-hail.svg in Resources */,
+				705A6027226669E100B32EB5 /* wi-moon-alt-waning-gibbous-1.svg in Resources */,
+				705A5FE9226669E000B32EB5 /* wi-sunset.svg in Resources */,
+				705A5FA9226669E000B32EB5 /* wi-wind-beaufort-4.svg in Resources */,
+				705A5FD0226669E000B32EB5 /* wi-smoke.svg in Resources */,
+				705A5F79226669E000B32EB5 /* wi-wind-beaufort-0.svg in Resources */,
+				705A6044226669E100B32EB5 /* wi-night-alt-lightning.svg in Resources */,
+				705A5FB9226669E000B32EB5 /* wi-moon-alt-first-quarter.svg in Resources */,
+				705A5FAF226669E000B32EB5 /* wi-moon-alt-waning-gibbous-6.svg in Resources */,
+				705A6004226669E100B32EB5 /* wi-night-sprinkle.svg in Resources */,
+				705A5F9A226669E000B32EB5 /* wi-night-showers.svg in Resources */,
+				705A6012226669E100B32EB5 /* wi-rain-wind.svg in Resources */,
+				705A6043226669E100B32EB5 /* wi-moonset.svg in Resources */,
+				705A600D226669E100B32EB5 /* wi-lunar-eclipse.svg in Resources */,
+				705A5FFE226669E000B32EB5 /* wi-moon-third-quarter.svg in Resources */,
+				705A5FCF226669E000B32EB5 /* wi-day-hail.svg in Resources */,
+				705A5FBB226669E000B32EB5 /* wi-moon-alt-waning-crescent-6.svg in Resources */,
+				705A600B226669E100B32EB5 /* wi-night-hail.svg in Resources */,
+				705A5FDE226669E000B32EB5 /* wi-time-6.svg in Resources */,
+				705A5FA7226669E000B32EB5 /* wi-sandstorm.svg in Resources */,
+				705A6011226669E100B32EB5 /* wi-time-5.svg in Resources */,
+				705A5F98226669E000B32EB5 /* wi-train.svg in Resources */,
+				705A602A226669E100B32EB5 /* wi-day-sunny.svg in Resources */,
+				705A5FE2226669E000B32EB5 /* wi-wind-beaufort-6.svg in Resources */,
+				705A5F90226669E000B32EB5 /* wi-night-lightning.svg in Resources */,
+				705A5F75226669E000B32EB5 /* wi-day-cloudy.svg in Resources */,
+				705A6040226669E100B32EB5 /* wi-barometer.svg in Resources */,
+				705A603C226669E100B32EB5 /* wi-night-alt-thunderstorm.svg in Resources */,
+				705A5FDD226669E000B32EB5 /* wi-moon-waxing-gibbous-2.svg in Resources */,
+				705A5FBA226669E000B32EB5 /* wi-moon-waning-gibbous-4.svg in Resources */,
+				705A602E226669E100B32EB5 /* wi-sunrise.svg in Resources */,
+				705A5FBD226669E000B32EB5 /* wi-moon-waning-crescent-6.svg in Resources */,
+				705A5F8F226669E000B32EB5 /* wi-direction-up-left.svg in Resources */,
+				705A6031226669E100B32EB5 /* wi-day-showers.svg in Resources */,
+				705A6029226669E100B32EB5 /* wi-day-rain.svg in Resources */,
+				705A5FE7226669E000B32EB5 /* wi-moon-first-quarter.svg in Resources */,
+				705A5FEE226669E000B32EB5 /* wi-day-sleet-storm.svg in Resources */,
+				705A602F226669E100B32EB5 /* wi-hail.svg in Resources */,
+				705A5FB1226669E000B32EB5 /* wi-day-windy.svg in Resources */,
+				705A5F9E226669E000B32EB5 /* wi-night-snow.svg in Resources */,
+				705A5FF9226669E000B32EB5 /* wi-alien.svg in Resources */,
+				705A5F7E226669E000B32EB5 /* wi-wind-beaufort-12.svg in Resources */,
+				705A5FEC226669E000B32EB5 /* wi-horizon-alt.svg in Resources */,
+				705A5FF1226669E000B32EB5 /* wi-moon-waxing-crescent-4.svg in Resources */,
+				705A5FD5226669E000B32EB5 /* wi-night-cloudy-high.svg in Resources */,
+				705A5FE4226669E000B32EB5 /* wi-small-craft-advisory.svg in Resources */,
+				705A5FF6226669E000B32EB5 /* wi-celsius.svg in Resources */,
+				705A5FC5226669E000B32EB5 /* wi-moon-alt-waning-gibbous-3.svg in Resources */,
+				705A5F8C226669E000B32EB5 /* wi-cloudy-windy.svg in Resources */,
+				705A5FAB226669E000B32EB5 /* wi-humidity.svg in Resources */,
+				705A6021226669E100B32EB5 /* wi-night-thunderstorm.svg in Resources */,
+				705A6024226669E100B32EB5 /* wi-time-4.svg in Resources */,
+				705A6036226669E100B32EB5 /* wi-night-cloudy-gusts.svg in Resources */,
+				705A6032226669E100B32EB5 /* wi-moon-alt-waning-gibbous-4.svg in Resources */,
+				705A5F7B226669E000B32EB5 /* wi-day-snow-wind.svg in Resources */,
+				705A5F86226669E000B32EB5 /* wi-moon-alt-waxing-crescent-5.svg in Resources */,
+				705A5FA6226669E000B32EB5 /* wi-moon-waxing-crescent-1.svg in Resources */,
+				705A6033226669E100B32EB5 /* wi-stars.svg in Resources */,
+				705A6047226669E100B32EB5 /* wi-moon-waxing-gibbous-5.svg in Resources */,
+				705A5FC4226669E000B32EB5 /* wi-moon-alt-waning-crescent-1.svg in Resources */,
+				705A5F6F226669E000B32EB5 /* wi-moonrise.svg in Resources */,
+				705A5FB3226669E000B32EB5 /* wi-time-8.svg in Resources */,
+				705A5FA4226669E000B32EB5 /* wi-time-1.svg in Resources */,
+				705A6026226669E100B32EB5 /* wi-cloud.svg in Resources */,
+				705A5FA1226669E000B32EB5 /* wi-night-alt-sleet-storm.svg in Resources */,
+				705A5FEA226669E000B32EB5 /* wi-moon-waning-crescent-4 .svg in Resources */,
+				705A603B226669E100B32EB5 /* wi-moon-alt-waning-crescent-3.svg in Resources */,
+				705A601C226669E100B32EB5 /* wi-wind-beaufort-3.svg in Resources */,
+				705A6045226669E100B32EB5 /* wi-wind-beaufort-9.svg in Resources */,
+				705A6006226669E100B32EB5 /* wi-time-10.svg in Resources */,
+				705A5FED226669E000B32EB5 /* wi-cloudy.svg in Resources */,
+				705A6007226669E100B32EB5 /* wi-wind-beaufort-1.svg in Resources */,
+				705A5FD3226669E000B32EB5 /* wi-night-alt-cloudy-windy.svg in Resources */,
+				705A5F8D226669E000B32EB5 /* wi-thermometer-exterior.svg in Resources */,
+				705A5FE8226669E000B32EB5 /* wi-direction-right.svg in Resources */,
+				705A6015226669E100B32EB5 /* wi-snow-wind.svg in Resources */,
+				705A6020226669E100B32EB5 /* wi-moon-waning-gibbous-5 .svg in Resources */,
+				705A6000226669E000B32EB5 /* wi-wind-beaufort-11.svg in Resources */,
+				705A5F77226669E000B32EB5 /* wi-direction-up-right.svg in Resources */,
+				705A5F94226669E000B32EB5 /* wi-night-alt-rain.svg in Resources */,
+				705A5F7D226669E000B32EB5 /* wi-wind-beaufort-10.svg in Resources */,
+				705A6039226669E100B32EB5 /* wi-night-alt-sprinkle.svg in Resources */,
+				705A6046226669E100B32EB5 /* wi-direction-down-left.svg in Resources */,
+				705A6037226669E100B32EB5 /* wi-earthquake.svg in Resources */,
+				705A603F226669E100B32EB5 /* wi-umbrella.svg in Resources */,
+				705A5FF4226669E000B32EB5 /* wi-hot.svg in Resources */,
+				705A5F8B226669E000B32EB5 /* wi-night-clear.svg in Resources */,
+				705A6034226669E100B32EB5 /* wi-storm-warning.svg in Resources */,
+				705A5F78226669E000B32EB5 /* wi-moon-full.svg in Resources */,
+				705A5F9C226669E000B32EB5 /* wi-moon-waxing-gibbous-4 .svg in Resources */,
+				705A603A226669E100B32EB5 /* wi-night-alt-storm-showers.svg in Resources */,
+				705A5FB7226669E000B32EB5 /* wi-moon-alt-waxing-crescent-3.svg in Resources */,
+				705A5F80226669E000B32EB5 /* wi-cloudy-gusts.svg in Resources */,
+				705A5F70226669E000B32EB5 /* wi-wind-deg.svg in Resources */,
+				705A5FC1226669E000B32EB5 /* wi-strong-wind.svg in Resources */,
+				705A5FFF226669E000B32EB5 /* wi-degrees.svg in Resources */,
+				705A5FFD226669E000B32EB5 /* wi-direction-up.svg in Resources */,
+				705A5FCE226669E000B32EB5 /* wi-night-snow-thunderstorm.svg in Resources */,
+				705A600A226669E100B32EB5 /* wi-time-11.svg in Resources */,
+				705A5FF2226669E000B32EB5 /* wi-night-snow-wind.svg in Resources */,
+				705A5FA5226669E000B32EB5 /* wi-night-alt-snow-wind.svg in Resources */,
+				705A6014226669E100B32EB5 /* wi-moon-waxing-crescent-5.svg in Resources */,
+				705A5FD2226669E000B32EB5 /* wi-moon-alt-waxing-crescent-4.svg in Resources */,
+				705A5FFB226669E000B32EB5 /* wi-moon-waning-gibbous-6.svg in Resources */,
+				705A602D226669E100B32EB5 /* wi-day-cloudy-windy.svg in Resources */,
+				705A6019226669E100B32EB5 /* wi-time-2.svg in Resources */,
+				705A5F84226669E000B32EB5 /* wi-wind-beaufort-7.svg in Resources */,
+				705A5FDC226669E000B32EB5 /* wi-moon-alt-waxing-crescent-1.svg in Resources */,
+				705A5FB6226669E000B32EB5 /* wi-day-haze.svg in Resources */,
+				705A5FBC226669E000B32EB5 /* wi-gale-warning.svg in Resources */,
+				705A603E226669E100B32EB5 /* wi-night-alt-cloudy.svg in Resources */,
+				705A6022226669E100B32EB5 /* wi-refresh.svg in Resources */,
+				705A603D226669E100B32EB5 /* wi-day-sunny-overcast.svg in Resources */,
+				705A5FDB226669E000B32EB5 /* wi-refresh-alt.svg in Resources */,
 				705A5E802264F70200B32EB5 /* Cities.json in Resources */,
+				705A5F8A226669E000B32EB5 /* wi-day-lightning.svg in Resources */,
+				705A5F9D226669E000B32EB5 /* wi-wind-beaufort-2.svg in Resources */,
+				705A5FA8226669E000B32EB5 /* wi-day-sleet.svg in Resources */,
+				705A5F83226669E000B32EB5 /* wi-fire.svg in Resources */,
+				705A5F85226669E000B32EB5 /* wi-moon-waning-crescent-3.svg in Resources */,
+				705A5FFC226669E000B32EB5 /* wi-dust.svg in Resources */,
+				705A5FE3226669E000B32EB5 /* wi-moon-waning-crescent-2.svg in Resources */,
 				70BA278022649CE90078218E /* Assets.xcassets in Resources */,
+				705A6017226669E100B32EB5 /* wi-direction-left.svg in Resources */,
+				705A5FBE226669E000B32EB5 /* wi-night-alt-sleet.svg in Resources */,
+				705A5F71226669E000B32EB5 /* wi-moon-waning-gibbous-3.svg in Resources */,
+				705A5FB4226669E000B32EB5 /* wi-night-rain.svg in Resources */,
+				705A5FA3226669E000B32EB5 /* wi-moon-new.svg in Resources */,
+				705A5F7F226669E000B32EB5 /* wi-moon-waxing-crescent-3.svg in Resources */,
+				705A5FB8226669E000B32EB5 /* wi-cloud-refresh.svg in Resources */,
+				705A5FCD226669E000B32EB5 /* wi-moon-alt-third-quarter.svg in Resources */,
 				705A5E752264EF7900B32EB5 /* WeatherFlow.storyboard in Resources */,
+				705A5FDF226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-5.svg in Resources */,
+				705A601E226669E100B32EB5 /* wi-day-snow.svg in Resources */,
+				705A6035226669E100B32EB5 /* wi-sprinkle.svg in Resources */,
+				705A5F7C226669E000B32EB5 /* wi-moon-waning-crescent-1.svg in Resources */,
+				705A5FCA226669E000B32EB5 /* wi-day-fog.svg in Resources */,
+				705A5FA0226669E000B32EB5 /* wi-moon-alt-waning-crescent-2.svg in Resources */,
+				705A6038226669E100B32EB5 /* wi-day-cloudy-high.svg in Resources */,
+				705A5FB5226669E000B32EB5 /* wi-thermometer.svg in Resources */,
+				705A5F89226669E000B32EB5 /* wi-hurricane.svg in Resources */,
+				705A5FD9226669E000B32EB5 /* wi-night-storm-showers.svg in Resources */,
+				705A5FAE226669E000B32EB5 /* wi-moon-alt-waning-crescent-5.svg in Resources */,
+				705A5FC8226669E000B32EB5 /* wi-day-light-wind.svg in Resources */,
+				705A5FAA226669E000B32EB5 /* wi-thunderstorm.svg in Resources */,
+				705A601D226669E100B32EB5 /* wi-moon-waning-gibbous-2.svg in Resources */,
+				705A5F81226669E000B32EB5 /* wi-moon-alt-waxing-crescent-2.svg in Resources */,
+				705A6023226669E100B32EB5 /* wi-night-fog.svg in Resources */,
+				705A5FF7226669E000B32EB5 /* wi-day-sprinkle.svg in Resources */,
+				705A5F93226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-1.svg in Resources */,
+				705A5FD7226669E000B32EB5 /* wi-moon-waning-gibbous-1.svg in Resources */,
+				705A6025226669E100B32EB5 /* wi-night-alt-cloudy-gusts.svg in Resources */,
+				705A5FD1226669E000B32EB5 /* wi-tornado.svg in Resources */,
+				705A5FD6226669E000B32EB5 /* wi-storm-showers.svg in Resources */,
+				705A6030226669E100B32EB5 /* wi-night-rain-wind.svg in Resources */,
+				705A5FBF226669E000B32EB5 /* wi-volcano.svg in Resources */,
+				705A5F7A226669E000B32EB5 /* wi-na.svg in Resources */,
+				705A5FAC226669E000B32EB5 /* wi-night-rain-mix.svg in Resources */,
+				705A5FDA226669E000B32EB5 /* wi-fahrenheit.svg in Resources */,
+				705A5FCB226669E000B32EB5 /* wi-night-alt-snow.svg in Resources */,
+				705A6003226669E100B32EB5 /* wi-night-sleet-storm.svg in Resources */,
+				705A5FB0226669E000B32EB5 /* wi-night-alt-partly-cloudy.svg in Resources */,
+				705A6041226669E100B32EB5 /* wi-moon-alt-waxing-gibbous-2.svg in Resources */,
+				705A5FF5226669E000B32EB5 /* wi-horizon.svg in Resources */,
+				705A5FC9226669E000B32EB5 /* wi-night-alt-snow-thunderstorm.svg in Resources */,
+				705A602B226669E100B32EB5 /* wi-hurricane-warning.svg in Resources */,
 				705A5E7C2264F3F700B32EB5 /* WeatherCell.xib in Resources */,
+				705A6042226669E100B32EB5 /* wi-sleet.svg in Resources */,
+				705A5FC3226669E000B32EB5 /* wi-moon-waxing-gibbous-3.svg in Resources */,
+				705A5F6D226669E000B32EB5 /* wi-night-sleet.svg in Resources */,
+				705A5F91226669E000B32EB5 /* wi-windy.svg in Resources */,
+				705A5FC6226669E000B32EB5 /* wi-raindrop.svg in Resources */,
+				705A5FC2226669E000B32EB5 /* wi-day-thunderstorm.svg in Resources */,
+				705A6001226669E000B32EB5 /* wi-meteor.svg in Resources */,
+				705A5FB2226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-4.svg in Resources */,
+				705A6008226669E100B32EB5 /* wi-direction-down.svg in Resources */,
+				705A5F6E226669E000B32EB5 /* wi-night-cloudy-windy.svg in Resources */,
+				705A5FE5226669E000B32EB5 /* wi-time-3.svg in Resources */,
+				705A600E226669E100B32EB5 /* wi-solar-eclipse.svg in Resources */,
+				705A5F73226669E000B32EB5 /* wi-night-partly-cloudy.svg in Resources */,
+				705A600F226669E100B32EB5 /* wi-moon-waxing-crescent-2.svg in Resources */,
+				705A5FFA226669E000B32EB5 /* wi-lightning.svg in Resources */,
+				705A6028226669E100B32EB5 /* wi-night-alt-showers.svg in Resources */,
+				705A5FF3226669E000B32EB5 /* wi-day-storm-showers.svg in Resources */,
+				705A5FCC226669E000B32EB5 /* wi-moon-alt-full.svg in Resources */,
+				705A5FAD226669E000B32EB5 /* wi-thermometer-internal.svg in Resources */,
+				705A6002226669E000B32EB5 /* wi-moon-alt-waning-gibbous-5.svg in Resources */,
+				705A5FC0226669E000B32EB5 /* wi-day-snow-thunderstorm.svg in Resources */,
+				705A5FD8226669E000B32EB5 /* wi-showers.svg in Resources */,
+				705A5F9B226669E000B32EB5 /* wi-moon-alt-waning-crescent-4.svg in Resources */,
+				705A5F88226669E000B32EB5 /* wi-snow.svg in Resources */,
+				705A5FE6226669E000B32EB5 /* wi-smog.svg in Resources */,
+				705A6016226669E100B32EB5 /* wi-night-alt-cloudy-high.svg in Resources */,
+				705A5F97226669E000B32EB5 /* wi-time-9.svg in Resources */,
+				705A5FA2226669E000B32EB5 /* wi-flood.svg in Resources */,
+				705A6018226669E100B32EB5 /* wi-moon-waxing-gibbous-1.svg in Resources */,
+				705A6010226669E100B32EB5 /* wi-time-7.svg in Resources */,
+				705A5FEF226669E000B32EB5 /* wi-night-alt-rain-mix.svg in Resources */,
+				705A5F99226669E000B32EB5 /* wi-cloud-down.svg in Resources */,
+				705A5F74226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-3.svg in Resources */,
+				705A6009226669E100B32EB5 /* wi-moon-waxing-crescent-6 .svg in Resources */,
+				705A6013226669E100B32EB5 /* wi-rain-mix.svg in Resources */,
+				705A600C226669E100B32EB5 /* wi-moon-alt-waning-gibbous-2.svg in Resources */,
+				705A601F226669E100B32EB5 /* wi-wind-beaufort-8.svg in Resources */,
+				705A5FF0226669E000B32EB5 /* wi-tsunami.svg in Resources */,
+				705A5F72226669E000B32EB5 /* wi-snowflake-cold.svg in Resources */,
+				705A5F96226669E000B32EB5 /* wi-night-alt-rain-wind.svg in Resources */,
+				705A5FF8226669E000B32EB5 /* wi-moon-alt-new.svg in Resources */,
+				705A5F8E226669E000B32EB5 /* wi-moon-alt-waxing-gibbous-6 .svg in Resources */,
+				705A5F95226669E000B32EB5 /* wi-night-cloudy.svg in Resources */,
+				705A5FC7226669E000B32EB5 /* wi-cloud-up.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
