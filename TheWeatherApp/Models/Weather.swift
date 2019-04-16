@@ -13,8 +13,8 @@ struct Weather: Decodable {
     // MARK: - Properties
     
     let name: String
-    let description: String?
-    let icon: String?
+    let description: String
+    let icon: String
     let temperature: Double
     let pressure: Double
     let humidity: Double
@@ -40,16 +40,23 @@ struct Weather: Decodable {
         case maximumTempereture = "temp_max"
     }
     
+    // MARK: - Helper structs
+    
+    private struct WeatherContainer: Codable {
+        let description: String
+        let icon: String
+    }
+    
     // MARK: - Initialization
     
     init(from decoder: Decoder) throws {
         let rootContainer = try decoder.container(keyedBy: RootCodingKeys.self)
         self.name = try rootContainer.decode(String.self, forKey: .name)
         
-        let weatherContainer = try rootContainer.nestedUnkeyedContainer(forKey: .weatherContainer)
-        // TODO
-        self.description = nil
-        self.icon = nil
+        var weatherArrayContainer = try rootContainer.nestedUnkeyedContainer(forKey: .weatherContainer)
+        let weatherContainer = try weatherArrayContainer.decode(WeatherContainer.self)
+        self.description = weatherContainer.description
+        self.icon = weatherContainer.icon
         
         
         let mainContainer = try rootContainer.nestedContainer(keyedBy: MainCodingKeys.self, forKey: .mainContainer)

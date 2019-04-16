@@ -21,8 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.setupDefaultNavigationBarAppereance()
         
-        
-        
         return true
     }
     

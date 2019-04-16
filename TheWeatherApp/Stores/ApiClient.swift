@@ -22,7 +22,7 @@ final class ApiClient {
     
     init() {
         self.decoder = JSONDecoder()
-        self.decoder.keyDecodingStrategy = .convertFromSnakeCase
+        self.decoder.keyDecodingStrategy = .useDefaultKeys
     }
     
     // MARK: - Private methods
