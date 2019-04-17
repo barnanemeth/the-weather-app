@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  TheWeatherApp
+
+  Created by Németh Barna on 2019. 04. 17..
+  Copyright © 2019. Barna Nemeth. All rights reserved.
+*/
+
+"Sorry" = "Sajnáljuk";
+"Error" = "Hiba";
+"OK" = "OK";
+"Something went wrong. Please try again!" = "Valami nem sikerült. Kérjük, próbáld újra!";
+"City is not found" = "A város nem található";

@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "-"; ObjectID = "4qh-Xe-qXq"; */
+"4qh-Xe-qXq.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "516-fA-NqH"; */
+"516-fA-NqH.text" = "-";
+
+/* Class = "UILabel"; text = "Maximum"; ObjectID = "CMo-ds-nPU"; */
+"CMo-ds-nPU.text" = "Maximum";
+
+/* Class = "UILabel"; text = "Pressure"; ObjectID = "J1f-Bx-IKv"; */
+"J1f-Bx-IKv.text" = "Légnyomás";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "XkA-EW-e8V"; */
+"XkA-EW-e8V.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "dMn-p3-St8"; */
+"dMn-p3-St8.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "jKv-Hd-amv"; */
+"jKv-Hd-amv.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "jj8-uo-jHB"; */
+"jj8-uo-jHB.text" = "-";
+
+/* Class = "UILabel"; text = "Humidity"; ObjectID = "l8L-9G-l5z"; */
+"l8L-9G-l5z.text" = "Páratartalom";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "nAy-mr-nlh"; */
+"nAy-mr-nlh.text" = "-";
+
+/* Class = "UINavigationItem"; title = "TheWeatherApp"; ObjectID = "tSH-gR-O3W"; */
+"tSH-gR-O3W.title" = "TheWeatherApp";
+
+/* Class = "UILabel"; text = "Minimum"; ObjectID = "vsh-4r-zTF"; */
+"vsh-4r-zTF.text" = "Minimum";
