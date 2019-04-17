@@ -80,6 +80,7 @@ class WeatherDetailsViewController: UIViewController {
         self.humidityLabel.text = weatherData.humidity.asPercent
         
         if let imageName = self.getImageName(for: weatherData.weatherID, and: weatherData.description) {
+            guard self.isSVGImageExists(imageName) else { return }
             guard let image = SVGKImage(named: imageName) else { return }
             image.size = self.weatherImageView.frame.size
             self.weatherImageView.image = image.uiImage
@@ -101,6 +102,11 @@ class WeatherDetailsViewController: UIViewController {
         } catch {
             return nil
         }
+    }
+    
+    private func isSVGImageExists(_ imageName: String) -> Bool {
+        guard let fileUrl = Bundle.main.url(forResource: imageName, withExtension: "svg") else { return false }
+        return FileManager.default.fileExists(atPath: fileUrl.path)
     }
 
 }
