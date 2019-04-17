@@ -14,5 +14,9 @@
 	{
 		"name": "Nyíregyháza", 
 		"state": "Szabolcs-Szatmár-Bereg"
-	}
+	},
+    {
+        "name": "Fake",
+        "state": "Fake"
+    }
 ]

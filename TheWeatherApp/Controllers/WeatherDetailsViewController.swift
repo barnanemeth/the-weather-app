@@ -53,7 +53,17 @@ class WeatherDetailsViewController: UIViewController {
             guard let self = self else { return }
             self.setupView(for: weather)
         }).catch({ [weak self] error in
-            print(error)
+            guard let networkingError = error as? NetworkingError, case .serviceError(let status) = networkingError else {
+                self?.showAlert(for: error)
+                return
+            }
+            if status == .notFound {
+                self?.showAlert(title: NSLocalizedString("Sorry", comment: ""), message: NSLocalizedString("City is not found", comment: ""), defaultButtonHandler: {
+                    self?.navigationController?.popViewController(animated: true)
+                })
+                return
+            }
+            self?.showGenericAlert()
         })
     }
     
