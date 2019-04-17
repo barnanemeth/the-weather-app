@@ -12,6 +12,7 @@ extension UIViewController {
     
     func showAlert(for error: Error, defaultButtonHandler: (() -> Void)? = nil) {
         let alertController = UIAlertController(title: NSLocalizedString("Error", comment: ""), message: error.localizedDescription, preferredStyle: .alert)
+        alertController.view.tintColor = UIColor.protossPylon
         alertController.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .default, handler: { _ in
             defaultButtonHandler?()
         }))
@@ -20,6 +21,7 @@ extension UIViewController {
     
     func showAlert(title: String, message: String, defaultButtonHandler: (() -> Void)? = nil) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alertController.view.tintColor = UIColor.protossPylon
         alertController.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .default, handler: { _ in
             defaultButtonHandler?()
         }))
@@ -28,6 +30,7 @@ extension UIViewController {
     
     func showGenericAlert(defaultButtonHandler: (() -> Void)? = nil) {
         let alertController = UIAlertController(title: NSLocalizedString("Error", comment: ""), message: NSLocalizedString("Something went wrong. Please try again!", comment: ""), preferredStyle: .alert)
+        alertController.view.tintColor = UIColor.protossPylon
         alertController.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .default, handler: { _ in
             defaultButtonHandler?()
         }))
