@@ -33,6 +33,10 @@ class WeatherDetailsViewController: UIViewController {
         super.viewDidLoad()
         
         self.setupNavigationBar()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         self.fetchWeatherData()
     }
 
@@ -47,10 +51,9 @@ class WeatherDetailsViewController: UIViewController {
         self.view.showAnimatedGradientSkeleton()
         firstly(execute: {
             self.apiClient.getWeather(for: city)
-        }).ensure({ [weak self] in
-            self?.view.hideSkeleton()
         }).done({ [weak self] weather in
             guard let self = self else { return }
+            self.view.hideSkeleton()
             self.setupView(for: weather)
         }).catch({ [weak self] error in
             guard let networkingError = error as? NetworkingError, case .serviceError(let status) = networkingError else {
